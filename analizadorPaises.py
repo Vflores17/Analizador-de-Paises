@@ -5,6 +5,19 @@
 #  Versión: 3.10.4                                  ##
 ######################################################
 
+#importación de librerías
+from funcionesPaises import *
+
+
+def opcionCrearEstructura():
+    return
+
+def opcionGenerarXML():
+    return
+
+def opcionGenerarHTML():
+    return  
+
 
 #función para el manejo del menú.
 def menu():
