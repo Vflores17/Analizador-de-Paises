@@ -11,9 +11,9 @@ import csv
 #Función para leer un archivo csv
 
 def leerArchivo():
-    with open('paises.txt', encoding='utf-8') as File:  
-        reader = csv.reader(File)
-    return reader
+    with open('paises.txt', encoding='utf-8') as archivo:  
+        lista = csv.reader(archivo)
+    return lista
 
 
 
