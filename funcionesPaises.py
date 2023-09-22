@@ -8,12 +8,12 @@
 #importación de librerías
 import csv
 
+#Función para leer un archivo csv
+
 def leerArchivo():
     with open('paises.txt', encoding='utf-8') as File:  
         reader = csv.reader(File)
-        for row in reader:
-            print(row)
-    return
+    return reader
 
-leerArchivo()
+
 

@@ -10,10 +10,16 @@ from funcionesPaises import *
 
 
 def opcionCrearEstructura():
-    return
+    listaStrings=leerArchivo()
+    print("""
+    ***** Se han leído los datos del archivo exitosamente. *****
+    """)
+    return listaStrings
 
-def opcionGenerarXML():
-    return
+def opcionGenerarXML(listaStrings):
+    print(listaStrings)
+    return ""
+
 
 def opcionGenerarHTML():
     return  
@@ -21,41 +27,40 @@ def opcionGenerarHTML():
 
 #función para el manejo del menú.
 def menu():
-    """
-    Funcionamiento: De manera repetitiva, muestra el menú al usuario. 
-    Entradas: NA
-    Salidas: Resultado según lo solicitado.
-    """
-    print ("""
+    listaStrings = [] 
+
+    while True:
+        print("""
 **************************************************************\n
-    ¡Bienvenido al analizador de paises!\n
+    ¡Bienvenido al analizador de paises!
     By: Vidal Flores & Luis Aguilar\n
 
-    Opciones a elegir.\n
-    1. Crear estructura.\n
-    2. Generar XML.\n
-    3. Generar un HTML.\n
+    Opciones a elegir.
+    1. Crear estructura.
+    2. Generar XML.
+    3. Generar un HTML.
     4. Salir del programa
     """)
-    opcion = int (input ("Escoja una opción: "))
-    if opcion >=0 and opcion <=4:
+        opcion = int(input("Escoja una opción: "))
+
         if opcion == 1:
-            opcion
-        elif opcion == 2:
-            opcion
-        elif opcion == 3:
-            opcion
-        else:
-            print("""---------\nDescubre más sobre el mundo cada vez que utilices
+            listaStrings = opcionCrearEstructura()  # Almacena la lista devuelta
+        elif opcion and listaStrings!=[]:
+            opcionGenerarXML(listaStrings)  # Pasa la lista como parámetro
+        elif opcion and listaStrings!=[]:
+            opcionGenerarHTML(listaStrings)  # Pasa la lista como parámetro
+        elif opcion == 2 or opcion == 3 and listaStrings==[]:
+            print("\nPrimero debes crear la estructura.")
+        elif opcion == 4:
+            print("""
+---------\nDescubre más sobre el mundo cada vez que utilices
 nuestro analizador de países. ¡Hay tantos datos interesantes por explorar!\n
 
         *************** FIN DEL PROGRAMA ******************************
         """)
-            
-            return
-    else:
-        print ("Opción inválida")
-    menu()
+            break
+        else:
+            print("Opción inválida")
 
 #inicio del Programa Principal
 menu()
