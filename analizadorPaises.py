@@ -16,9 +16,11 @@ def opcionCrearEstructura():
     """)
     return listaStrings
 
-def opcionGenerarXML(listaStrings):
-    print(listaStrings)
-    return ""
+def opcionGenerarXml(listaStrings):
+    if crearXml(listaStrings):
+        print("""
+     *****  Archivo XML generado exitosamente.  ******""")
+        return
 
 
 def opcionGenerarHTML():
@@ -46,7 +48,7 @@ def menu():
         if opcion == 1:
             listaStrings = opcionCrearEstructura()  # Almacena la lista devuelta
         elif opcion and listaStrings!=[]:
-            opcionGenerarXML(listaStrings)  # Pasa la lista como parámetro
+            opcionGenerarXml(listaStrings)  # Pasa la lista como parámetro
         elif opcion and listaStrings!=[]:
             opcionGenerarHTML(listaStrings)  # Pasa la lista como parámetro
         elif opcion == 2 or opcion == 3 and listaStrings==[]:
