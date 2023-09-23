@@ -18,7 +18,6 @@ def leerArchivo():
             if "'" in fila[6]:
                 fila[6]=fila[6].replace("'"," '' ")
                 lista.append(fila)
-                print("entra" + str(fila))
             else:
                 lista.append(fila)
     return crearListaString(lista)
@@ -57,6 +56,5 @@ def crearXml(lista):
             archivoXML.write('\t<lenguajesPais>'+str(lista[i][7])+'</lenguajesPais>\n')
             archivoXML.write('</pais>\n')
         archivoXML.write('</paises>\n')
-    archivoXML.close()
     return True
 
