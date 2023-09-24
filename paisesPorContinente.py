@@ -2,13 +2,13 @@ import csv
 from html import escape
 
 # Leer el archivo
-with open('paises.txt', 'r') as csvfile:
+with open("paises.txt", "r") as csvfile:
     reader = csv.DictReader(csvfile)
     paises = list(reader)
 
 # Función para procesar la información y generar HTML
 def generarPaisesContinente(paises):
-    with open('paisesPorContinente.html', 'w') as htmlfile:
+    with open("paisesPorContinente.html", "w") as htmlfile:
         htmlfile.write('''<html>
                            <head>
                                <title>Información de Países</title>
@@ -25,7 +25,7 @@ def generarPaisesContinente(paises):
                                    </tr>\n''')
 
         # Ordenar la lista de países alfabéticamente por el nombre del país
-        ordenarPais = sorted(paises, key=lambda x: x['countryName'])
+        ordenarPais = sorted(paises, key=lambda x: x["countryName"])
 
         for pais in ordenarPais:
             htmlfile.write(f'''<tr>
@@ -40,7 +40,7 @@ def generarPaisesContinente(paises):
                        </body>
                        </html>''')
 
-    print(f'Archivo HTML "paises.html" creado con {len(ordenarPais)} registros.')
+    print(f'Archivo HTML "paisesPorContinente.html" creado con {len(ordenarPais)} registros.')
 
 # Llama a la función para generar los archivos HTML
 generarPaisesContinente(paises)
