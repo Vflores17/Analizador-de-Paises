@@ -16,13 +16,56 @@ def opcionCrearEstructura():
     """)
     return listaStrings
 
-def opcionGenerarXML(listaStrings):
-    print(listaStrings)
-    return ""
+def opcionGenerarXml(listaStrings):
+    if crearXml(listaStrings):
+        print("""
+     *****  Archivo XML generado exitosamente.  ******""")
+        return
 
 
-def opcionGenerarHTML():
-    return  
+def opcionGenerarHtml(listaStrings):
+    while True:
+        print("""
+        ***** Submenú para generar HTML. *************\n
+        Escoja una opción:
+            1. Países por continente.
+            2. ¿Cuántos viven?
+            3. De grandes a pequeños.
+            4. Zonas Azules.
+            5. Países con el mismo idioma.
+            6. Pago con la misma moneda.
+            7. Códigos de un determinado país.
+            8. Hablantes por idioma.
+            9. Salir del submenú.
+        
+        **********************************************
+    """)
+        opcion=int(input("Escoja una opción: "))
+        if opcion>=1 and opcion<=9:
+            if opcion == 1:
+                print(listaStrings)
+            elif opcion == 2:
+                print("Opción 2")
+            elif opcion == 3:
+                print("Opción 3")
+            elif opcion == 4:
+                print("Opción 4")   
+            elif opcion == 5:
+                print("Opción 5")
+            elif opcion == 6:
+                print("Opción 6")
+            elif opcion == 7:
+                print("Opción 7")
+            elif opcion == 8:
+                print("Opción 8")
+            else:
+                print("""
+        *************** Has salido del submenú ******************************
+                      """)
+            
+                break 
+        else:
+            print("Opción inválida") 
 
 
 #función para el manejo del menú.
@@ -44,11 +87,11 @@ def menu():
         opcion = int(input("Escoja una opción: "))
 
         if opcion == 1:
-            listaStrings = opcionCrearEstructura()  # Almacena la lista devuelta
-        elif opcion and listaStrings!=[]:
-            opcionGenerarXML(listaStrings)  # Pasa la lista como parámetro
-        elif opcion and listaStrings!=[]:
-            opcionGenerarHTML(listaStrings)  # Pasa la lista como parámetro
+            listaStrings = opcionCrearEstructura()  
+        elif opcion == 2 and listaStrings!=[]:
+            opcionGenerarXml(listaStrings)  
+        elif opcion == 3 and listaStrings!=[]:
+            opcionGenerarHtml(listaStrings) 
         elif opcion == 2 or opcion == 3 and listaStrings==[]:
             print("\nPrimero debes crear la estructura.")
         elif opcion == 4:

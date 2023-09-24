@@ -1,0 +1,2502 @@
+<?xml version="1.0" encoding="UTF-8"?><paises>
+<pais>
+	<nombrePais>Andorra</nombrePais>
+	<codigosPais>['AD', 'AN', '020', 'AND', '3041565']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>77006</poblacionPais>
+	<capitalPais>Andorra la Vella</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>468.0</areaPais>
+	<lenguajesPais>['ca']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>United Arab Emirates</nombrePais>
+	<codigosPais>['AE', 'AE', '784', 'ARE', '290557']</codigosPais>
+	<monedaPais>AED</monedaPais>
+	<poblacionPais>9630959</poblacionPais>
+	<capitalPais>Abu Dhabi</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>82880.0</areaPais>
+	<lenguajesPais>['ar-AE,fa,en,hi,ur']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Afghanistan</nombrePais>
+	<codigosPais>['AF', 'AF', '004', 'AFG', '1149361']</codigosPais>
+	<monedaPais>AFN</monedaPais>
+	<poblacionPais>37172386</poblacionPais>
+	<capitalPais>Kabul</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>647500.0</areaPais>
+	<lenguajesPais>['fa-AF,ps,uz-AF,tk']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Antigua and Barbuda</nombrePais>
+	<codigosPais>['AG', 'AC', '028', 'ATG', '3576396']</codigosPais>
+	<monedaPais>XCD</monedaPais>
+	<poblacionPais>96286</poblacionPais>
+	<capitalPais>St John '' s</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>443.0</areaPais>
+	<lenguajesPais>['en-AG']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Anguilla</nombrePais>
+	<codigosPais>['AI', 'AV', '660', 'AIA', '3573511']</codigosPais>
+	<monedaPais>XCD</monedaPais>
+	<poblacionPais>13254</poblacionPais>
+	<capitalPais>The Valley</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>102.0</areaPais>
+	<lenguajesPais>['en-AI']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Albania</nombrePais>
+	<codigosPais>['AL', 'AL', '008', 'ALB', '783754']</codigosPais>
+	<monedaPais>ALL</monedaPais>
+	<poblacionPais>2866376</poblacionPais>
+	<capitalPais>Tirana</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>28748.0</areaPais>
+	<lenguajesPais>['sq,el']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Armenia</nombrePais>
+	<codigosPais>['AM', 'AM', '051', 'ARM', '174982']</codigosPais>
+	<monedaPais>AMD</monedaPais>
+	<poblacionPais>2951776</poblacionPais>
+	<capitalPais>Yerevan</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>29800.0</areaPais>
+	<lenguajesPais>['hy']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Angola</nombrePais>
+	<codigosPais>['AO', 'AO', '024', 'AGO', '3351879']</codigosPais>
+	<monedaPais>AOA</monedaPais>
+	<poblacionPais>30809762</poblacionPais>
+	<capitalPais>Luanda</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>1246700.0</areaPais>
+	<lenguajesPais>['pt-AO']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Antarctica</nombrePais>
+	<codigosPais>['AQ', 'AY', '010', 'ATA', '6697173']</codigosPais>
+	<monedaPais></monedaPais>
+	<poblacionPais>0</poblacionPais>
+	<capitalPais></capitalPais>
+	<continentePais>['Antarctica', 'AN']</continentePais>
+	<areaPais>1.4E7</areaPais>
+	<lenguajesPais>['']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Argentina</nombrePais>
+	<codigosPais>['AR', 'AR', '032', 'ARG', '3865483']</codigosPais>
+	<monedaPais>ARS</monedaPais>
+	<poblacionPais>44494502</poblacionPais>
+	<capitalPais>Buenos Aires</capitalPais>
+	<continentePais>['South America', 'SA']</continentePais>
+	<areaPais>2766890.0</areaPais>
+	<lenguajesPais>['es-AR,en,it,de,fr,gn']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>American Samoa</nombrePais>
+	<codigosPais>['AS', 'AQ', '016', 'ASM', '5880801']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>55465</poblacionPais>
+	<capitalPais>Pago Pago</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>199.0</areaPais>
+	<lenguajesPais>['en-AS,sm,to']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Austria</nombrePais>
+	<codigosPais>['AT', 'AU', '040', 'AUT', '2782113']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>8847037</poblacionPais>
+	<capitalPais>Vienna</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>83858.0</areaPais>
+	<lenguajesPais>['de-AT,hr,hu,sl']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Australia</nombrePais>
+	<codigosPais>['AU', 'AS', '036', 'AUS', '2077456']</codigosPais>
+	<monedaPais>AUD</monedaPais>
+	<poblacionPais>24992369</poblacionPais>
+	<capitalPais>Canberra</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>7686850.0</areaPais>
+	<lenguajesPais>['en-AU']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Aruba</nombrePais>
+	<codigosPais>['AW', 'AA', '533', 'ABW', '3577279']</codigosPais>
+	<monedaPais>AWG</monedaPais>
+	<poblacionPais>105845</poblacionPais>
+	<capitalPais>Oranjestad</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>193.0</areaPais>
+	<lenguajesPais>['nl-AW,pap,es,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Åland</nombrePais>
+	<codigosPais>['AX', '', '248', 'ALA', '661882']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>26711</poblacionPais>
+	<capitalPais>Mariehamn</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>1580.0</areaPais>
+	<lenguajesPais>['sv-AX']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Azerbaijan</nombrePais>
+	<codigosPais>['AZ', 'AJ', '031', 'AZE', '587116']</codigosPais>
+	<monedaPais>AZN</monedaPais>
+	<poblacionPais>9942334</poblacionPais>
+	<capitalPais>Baku</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>86600.0</areaPais>
+	<lenguajesPais>['az,ru,hy']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Bosnia and Herzegovina</nombrePais>
+	<codigosPais>['BA', 'BK', '070', 'BIH', '3277605']</codigosPais>
+	<monedaPais>BAM</monedaPais>
+	<poblacionPais>3323929</poblacionPais>
+	<capitalPais>Sarajevo</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>51129.0</areaPais>
+	<lenguajesPais>['bs,hr-BA,sr-BA']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Barbados</nombrePais>
+	<codigosPais>['BB', 'BB', '052', 'BRB', '3374084']</codigosPais>
+	<monedaPais>BBD</monedaPais>
+	<poblacionPais>286641</poblacionPais>
+	<capitalPais>Bridgetown</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>431.0</areaPais>
+	<lenguajesPais>['en-BB']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Bangladesh</nombrePais>
+	<codigosPais>['BD', 'BG', '050', 'BGD', '1210997']</codigosPais>
+	<monedaPais>BDT</monedaPais>
+	<poblacionPais>161356039</poblacionPais>
+	<capitalPais>Dhaka</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>144000.0</areaPais>
+	<lenguajesPais>['bn-BD,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Belgium</nombrePais>
+	<codigosPais>['BE', 'BE', '056', 'BEL', '2802361']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>11422068</poblacionPais>
+	<capitalPais>Brussels</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>30510.0</areaPais>
+	<lenguajesPais>['nl-BE,fr-BE,de-BE']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Burkina Faso</nombrePais>
+	<codigosPais>['BF', 'UV', '854', 'BFA', '2361809']</codigosPais>
+	<monedaPais>XOF</monedaPais>
+	<poblacionPais>19751535</poblacionPais>
+	<capitalPais>Ouagadougou</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>274200.0</areaPais>
+	<lenguajesPais>['fr-BF,mos']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Bulgaria</nombrePais>
+	<codigosPais>['BG', 'BU', '100', 'BGR', '732800']</codigosPais>
+	<monedaPais>BGN</monedaPais>
+	<poblacionPais>7000039</poblacionPais>
+	<capitalPais>Sofia</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>110910.0</areaPais>
+	<lenguajesPais>['bg,tr-BG,rom']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Bahrain</nombrePais>
+	<codigosPais>['BH', 'BA', '048', 'BHR', '290291']</codigosPais>
+	<monedaPais>BHD</monedaPais>
+	<poblacionPais>1569439</poblacionPais>
+	<capitalPais>Manama</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>665.0</areaPais>
+	<lenguajesPais>['ar-BH,en,fa,ur']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Burundi</nombrePais>
+	<codigosPais>['BI', 'BY', '108', 'BDI', '433561']</codigosPais>
+	<monedaPais>BIF</monedaPais>
+	<poblacionPais>11175378</poblacionPais>
+	<capitalPais>Gitega</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>27830.0</areaPais>
+	<lenguajesPais>['fr-BI,rn']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Benin</nombrePais>
+	<codigosPais>['BJ', 'BN', '204', 'BEN', '2395170']</codigosPais>
+	<monedaPais>XOF</monedaPais>
+	<poblacionPais>11485048</poblacionPais>
+	<capitalPais>Porto-Novo</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>112620.0</areaPais>
+	<lenguajesPais>['fr-BJ']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Saint Barthélemy</nombrePais>
+	<codigosPais>['BL', 'TB', '652', 'BLM', '3578476']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>8450</poblacionPais>
+	<capitalPais>Gustavia</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>21.0</areaPais>
+	<lenguajesPais>['fr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Bermuda</nombrePais>
+	<codigosPais>['BM', 'BD', '060', 'BMU', '3573345']</codigosPais>
+	<monedaPais>BMD</monedaPais>
+	<poblacionPais>63968</poblacionPais>
+	<capitalPais>Hamilton</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>53.0</areaPais>
+	<lenguajesPais>['en-BM,pt']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Brunei</nombrePais>
+	<codigosPais>['BN', 'BX', '096', 'BRN', '1820814']</codigosPais>
+	<monedaPais>BND</monedaPais>
+	<poblacionPais>428962</poblacionPais>
+	<capitalPais>Bandar Seri Begawan</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>5770.0</areaPais>
+	<lenguajesPais>['ms-BN,en-BN']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Bolivia</nombrePais>
+	<codigosPais>['BO', 'BL', '068', 'BOL', '3923057']</codigosPais>
+	<monedaPais>BOB</monedaPais>
+	<poblacionPais>11353142</poblacionPais>
+	<capitalPais>Sucre</capitalPais>
+	<continentePais>['South America', 'SA']</continentePais>
+	<areaPais>1098580.0</areaPais>
+	<lenguajesPais>['es-BO,qu,ay']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Bonaire, Sint Eustatius, and Saba</nombrePais>
+	<codigosPais>['BQ', '', '535', 'BES', '7626844']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>18012</poblacionPais>
+	<capitalPais>Kralendijk</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>328.0</areaPais>
+	<lenguajesPais>['nl,pap,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Brazil</nombrePais>
+	<codigosPais>['BR', 'BR', '076', 'BRA', '3469034']</codigosPais>
+	<monedaPais>BRL</monedaPais>
+	<poblacionPais>209469333</poblacionPais>
+	<capitalPais>Brasília</capitalPais>
+	<continentePais>['South America', 'SA']</continentePais>
+	<areaPais>8511965.0</areaPais>
+	<lenguajesPais>['pt-BR,es,en,fr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Bahamas</nombrePais>
+	<codigosPais>['BS', 'BF', '044', 'BHS', '3572887']</codigosPais>
+	<monedaPais>BSD</monedaPais>
+	<poblacionPais>385640</poblacionPais>
+	<capitalPais>Nassau</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>13940.0</areaPais>
+	<lenguajesPais>['en-BS']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Bhutan</nombrePais>
+	<codigosPais>['BT', 'BT', '064', 'BTN', '1252634']</codigosPais>
+	<monedaPais>BTN</monedaPais>
+	<poblacionPais>754394</poblacionPais>
+	<capitalPais>Thimphu</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>47000.0</areaPais>
+	<lenguajesPais>['dz']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Bouvet Island</nombrePais>
+	<codigosPais>['BV', 'BV', '074', 'BVT', '3371123']</codigosPais>
+	<monedaPais>NOK</monedaPais>
+	<poblacionPais>0</poblacionPais>
+	<capitalPais></capitalPais>
+	<continentePais>['Antarctica', 'AN']</continentePais>
+	<areaPais>49.0</areaPais>
+	<lenguajesPais>['']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Botswana</nombrePais>
+	<codigosPais>['BW', 'BC', '072', 'BWA', '933860']</codigosPais>
+	<monedaPais>BWP</monedaPais>
+	<poblacionPais>2254126</poblacionPais>
+	<capitalPais>Gaborone</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>600370.0</areaPais>
+	<lenguajesPais>['en-BW,tn-BW']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Belarus</nombrePais>
+	<codigosPais>['BY', 'BO', '112', 'BLR', '630336']</codigosPais>
+	<monedaPais>BYN</monedaPais>
+	<poblacionPais>9485386</poblacionPais>
+	<capitalPais>Minsk</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>207600.0</areaPais>
+	<lenguajesPais>['be,ru']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Belize</nombrePais>
+	<codigosPais>['BZ', 'BH', '084', 'BLZ', '3582678']</codigosPais>
+	<monedaPais>BZD</monedaPais>
+	<poblacionPais>383071</poblacionPais>
+	<capitalPais>Belmopan</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>22966.0</areaPais>
+	<lenguajesPais>['en-BZ,es']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Canada</nombrePais>
+	<codigosPais>['CA', 'CA', '124', 'CAN', '6251999']</codigosPais>
+	<monedaPais>CAD</monedaPais>
+	<poblacionPais>37058856</poblacionPais>
+	<capitalPais>Ottawa</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>9984670.0</areaPais>
+	<lenguajesPais>['en-CA,fr-CA,iu']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Cocos (Keeling) Islands</nombrePais>
+	<codigosPais>['CC', 'CK', '166', 'CCK', '1547376']</codigosPais>
+	<monedaPais>AUD</monedaPais>
+	<poblacionPais>628</poblacionPais>
+	<capitalPais>West Island</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>14.0</areaPais>
+	<lenguajesPais>['ms-CC,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>DR Congo</nombrePais>
+	<codigosPais>['CD', 'CG', '180', 'COD', '203312']</codigosPais>
+	<monedaPais>CDF</monedaPais>
+	<poblacionPais>84068091</poblacionPais>
+	<capitalPais>Kinshasa</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>2345410.0</areaPais>
+	<lenguajesPais>['fr-CD,ln,ktu,kg,sw,lua']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Central African Republic</nombrePais>
+	<codigosPais>['CF', 'CT', '140', 'CAF', '239880']</codigosPais>
+	<monedaPais>XAF</monedaPais>
+	<poblacionPais>4666377</poblacionPais>
+	<capitalPais>Bangui</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>622984.0</areaPais>
+	<lenguajesPais>['fr-CF,sg,ln,kg']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Congo Republic</nombrePais>
+	<codigosPais>['CG', 'CF', '178', 'COG', '2260494']</codigosPais>
+	<monedaPais>XAF</monedaPais>
+	<poblacionPais>5244363</poblacionPais>
+	<capitalPais>Brazzaville</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>342000.0</areaPais>
+	<lenguajesPais>['fr-CG,kg,ln-CG']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Switzerland</nombrePais>
+	<codigosPais>['CH', 'SZ', '756', 'CHE', '2658434']</codigosPais>
+	<monedaPais>CHF</monedaPais>
+	<poblacionPais>8516543</poblacionPais>
+	<capitalPais>Bern</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>41290.0</areaPais>
+	<lenguajesPais>['de-CH,fr-CH,it-CH,rm']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Ivory Coast</nombrePais>
+	<codigosPais>['CI', 'IV', '384', 'CIV', '2287781']</codigosPais>
+	<monedaPais>XOF</monedaPais>
+	<poblacionPais>25069229</poblacionPais>
+	<capitalPais>Yamoussoukro</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>322460.0</areaPais>
+	<lenguajesPais>['fr-CI']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Cook Islands</nombrePais>
+	<codigosPais>['CK', 'CW', '184', 'COK', '1899402']</codigosPais>
+	<monedaPais>NZD</monedaPais>
+	<poblacionPais>21388</poblacionPais>
+	<capitalPais>Avarua</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>240.0</areaPais>
+	<lenguajesPais>['en-CK,mi']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Chile</nombrePais>
+	<codigosPais>['CL', 'CI', '152', 'CHL', '3895114']</codigosPais>
+	<monedaPais>CLP</monedaPais>
+	<poblacionPais>18729160</poblacionPais>
+	<capitalPais>Santiago</capitalPais>
+	<continentePais>['South America', 'SA']</continentePais>
+	<areaPais>756950.0</areaPais>
+	<lenguajesPais>['es-CL']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Cameroon</nombrePais>
+	<codigosPais>['CM', 'CM', '120', 'CMR', '2233387']</codigosPais>
+	<monedaPais>XAF</monedaPais>
+	<poblacionPais>25216237</poblacionPais>
+	<capitalPais>Yaoundé</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>475440.0</areaPais>
+	<lenguajesPais>['en-CM,fr-CM']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>China</nombrePais>
+	<codigosPais>['CN', 'CH', '156', 'CHN', '1814991']</codigosPais>
+	<monedaPais>CNY</monedaPais>
+	<poblacionPais>1411778724</poblacionPais>
+	<capitalPais>Beijing</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>9596960.0</areaPais>
+	<lenguajesPais>['zh-CN,yue,wuu,dta,ug,za']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Colombia</nombrePais>
+	<codigosPais>['CO', 'CO', '170', 'COL', '3686110']</codigosPais>
+	<monedaPais>COP</monedaPais>
+	<poblacionPais>49648685</poblacionPais>
+	<capitalPais>Bogotá</capitalPais>
+	<continentePais>['South America', 'SA']</continentePais>
+	<areaPais>1138910.0</areaPais>
+	<lenguajesPais>['es-CO']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Costa Rica</nombrePais>
+	<codigosPais>['CR', 'CS', '188', 'CRI', '3624060']</codigosPais>
+	<monedaPais>CRC</monedaPais>
+	<poblacionPais>4999441</poblacionPais>
+	<capitalPais>San José</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>51100.0</areaPais>
+	<lenguajesPais>['es-CR,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Cuba</nombrePais>
+	<codigosPais>['CU', 'CU', '192', 'CUB', '3562981']</codigosPais>
+	<monedaPais>CUP</monedaPais>
+	<poblacionPais>11338138</poblacionPais>
+	<capitalPais>Havana</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>110860.0</areaPais>
+	<lenguajesPais>['es-CU,pap']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Cabo Verde</nombrePais>
+	<codigosPais>['CV', 'CV', '132', 'CPV', '3374766']</codigosPais>
+	<monedaPais>CVE</monedaPais>
+	<poblacionPais>543767</poblacionPais>
+	<capitalPais>Praia</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>4033.0</areaPais>
+	<lenguajesPais>['pt-CV']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Curaçao</nombrePais>
+	<codigosPais>['CW', 'UC', '531', 'CUW', '7626836']</codigosPais>
+	<monedaPais>ANG</monedaPais>
+	<poblacionPais>159849</poblacionPais>
+	<capitalPais>Willemstad</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>444.0</areaPais>
+	<lenguajesPais>['nl,pap']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Christmas Island</nombrePais>
+	<codigosPais>['CX', 'KT', '162', 'CXR', '2078138']</codigosPais>
+	<monedaPais>AUD</monedaPais>
+	<poblacionPais>1500</poblacionPais>
+	<capitalPais>Flying Fish Cove</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>135.0</areaPais>
+	<lenguajesPais>['en,zh,ms-CX']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Cyprus</nombrePais>
+	<codigosPais>['CY', 'CY', '196', 'CYP', '146669']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>1189265</poblacionPais>
+	<capitalPais>Nicosia</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>9250.0</areaPais>
+	<lenguajesPais>['el-CY,tr-CY,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Czechia</nombrePais>
+	<codigosPais>['CZ', 'EZ', '203', 'CZE', '3077311']</codigosPais>
+	<monedaPais>CZK</monedaPais>
+	<poblacionPais>10625695</poblacionPais>
+	<capitalPais>Prague</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>78866.0</areaPais>
+	<lenguajesPais>['cs,sk']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Germany</nombrePais>
+	<codigosPais>['DE', 'GM', '276', 'DEU', '2921044']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>82927922</poblacionPais>
+	<capitalPais>Berlin</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>357021.0</areaPais>
+	<lenguajesPais>['de']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Djibouti</nombrePais>
+	<codigosPais>['DJ', 'DJ', '262', 'DJI', '223816']</codigosPais>
+	<monedaPais>DJF</monedaPais>
+	<poblacionPais>958920</poblacionPais>
+	<capitalPais>Djibouti</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>23000.0</areaPais>
+	<lenguajesPais>['fr-DJ,ar,so-DJ,aa']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Denmark</nombrePais>
+	<codigosPais>['DK', 'DA', '208', 'DNK', '2623032']</codigosPais>
+	<monedaPais>DKK</monedaPais>
+	<poblacionPais>5797446</poblacionPais>
+	<capitalPais>Copenhagen</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>43094.0</areaPais>
+	<lenguajesPais>['da-DK,en,fo,de-DK']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Dominica</nombrePais>
+	<codigosPais>['DM', 'DO', '212', 'DMA', '3575830']</codigosPais>
+	<monedaPais>XCD</monedaPais>
+	<poblacionPais>71625</poblacionPais>
+	<capitalPais>Roseau</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>754.0</areaPais>
+	<lenguajesPais>['en-DM']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Dominican Republic</nombrePais>
+	<codigosPais>['DO', 'DR', '214', 'DOM', '3508796']</codigosPais>
+	<monedaPais>DOP</monedaPais>
+	<poblacionPais>10627165</poblacionPais>
+	<capitalPais>Santo Domingo</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>48730.0</areaPais>
+	<lenguajesPais>['es-DO']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Algeria</nombrePais>
+	<codigosPais>['DZ', 'AG', '012', 'DZA', '2589581']</codigosPais>
+	<monedaPais>DZD</monedaPais>
+	<poblacionPais>42228429</poblacionPais>
+	<capitalPais>Algiers</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>2381740.0</areaPais>
+	<lenguajesPais>['ar-DZ']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Ecuador</nombrePais>
+	<codigosPais>['EC', 'EC', '218', 'ECU', '3658394']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>17084357</poblacionPais>
+	<capitalPais>Quito</capitalPais>
+	<continentePais>['South America', 'SA']</continentePais>
+	<areaPais>283560.0</areaPais>
+	<lenguajesPais>['es-EC']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Estonia</nombrePais>
+	<codigosPais>['EE', 'EN', '233', 'EST', '453733']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>1320884</poblacionPais>
+	<capitalPais>Tallinn</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>45226.0</areaPais>
+	<lenguajesPais>['et,ru']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Egypt</nombrePais>
+	<codigosPais>['EG', 'EG', '818', 'EGY', '357994']</codigosPais>
+	<monedaPais>EGP</monedaPais>
+	<poblacionPais>98423595</poblacionPais>
+	<capitalPais>Cairo</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>1001450.0</areaPais>
+	<lenguajesPais>['ar-EG,en,fr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Western Sahara</nombrePais>
+	<codigosPais>['EH', 'WI', '732', 'ESH', '2461445']</codigosPais>
+	<monedaPais>MAD</monedaPais>
+	<poblacionPais>273008</poblacionPais>
+	<capitalPais></capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>266000.0</areaPais>
+	<lenguajesPais>['ar,mey']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Eritrea</nombrePais>
+	<codigosPais>['ER', 'ER', '232', 'ERI', '338010']</codigosPais>
+	<monedaPais>ERN</monedaPais>
+	<poblacionPais>6209262</poblacionPais>
+	<capitalPais>Asmara</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>121320.0</areaPais>
+	<lenguajesPais>['aa-ER,ar,tig,kun,ti-ER']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Spain</nombrePais>
+	<codigosPais>['ES', 'SP', '724', 'ESP', '2510769']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>46723749</poblacionPais>
+	<capitalPais>Madrid</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>504782.0</areaPais>
+	<lenguajesPais>['es-ES,ca,gl,eu,oc']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Ethiopia</nombrePais>
+	<codigosPais>['ET', 'ET', '231', 'ETH', '337996']</codigosPais>
+	<monedaPais>ETB</monedaPais>
+	<poblacionPais>109224559</poblacionPais>
+	<capitalPais>Addis Ababa</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>1127127.0</areaPais>
+	<lenguajesPais>['am,en-ET,om-ET,ti-ET,so-ET,sid']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Finland</nombrePais>
+	<codigosPais>['FI', 'FI', '246', 'FIN', '660013']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>5518050</poblacionPais>
+	<capitalPais>Helsinki</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>337030.0</areaPais>
+	<lenguajesPais>['fi-FI,sv-FI,smn']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Fiji</nombrePais>
+	<codigosPais>['FJ', 'FJ', '242', 'FJI', '2205218']</codigosPais>
+	<monedaPais>FJD</monedaPais>
+	<poblacionPais>883483</poblacionPais>
+	<capitalPais>Suva</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>18270.0</areaPais>
+	<lenguajesPais>['en-FJ,fj']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Falkland Islands</nombrePais>
+	<codigosPais>['FK', 'FK', '238', 'FLK', '3474414']</codigosPais>
+	<monedaPais>FKP</monedaPais>
+	<poblacionPais>2638</poblacionPais>
+	<capitalPais>Stanley</capitalPais>
+	<continentePais>['South America', 'SA']</continentePais>
+	<areaPais>12173.0</areaPais>
+	<lenguajesPais>['en-FK']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Micronesia</nombrePais>
+	<codigosPais>['FM', 'FM', '583', 'FSM', '2081918']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>112640</poblacionPais>
+	<capitalPais>Palikir</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>702.0</areaPais>
+	<lenguajesPais>['en-FM,chk,pon,yap,kos,uli,woe,nkr,kpg']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Faroe Islands</nombrePais>
+	<codigosPais>['FO', 'FO', '234', 'FRO', '2622320']</codigosPais>
+	<monedaPais>DKK</monedaPais>
+	<poblacionPais>48497</poblacionPais>
+	<capitalPais>Tórshavn</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>1399.0</areaPais>
+	<lenguajesPais>['fo,da-FO']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>France</nombrePais>
+	<codigosPais>['FR', 'FR', '250', 'FRA', '3017382']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>66987244</poblacionPais>
+	<capitalPais>Paris</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>547030.0</areaPais>
+	<lenguajesPais>['fr-FR,frp,br,co,ca,eu,oc']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Gabon</nombrePais>
+	<codigosPais>['GA', 'GB', '266', 'GAB', '2400553']</codigosPais>
+	<monedaPais>XAF</monedaPais>
+	<poblacionPais>2119275</poblacionPais>
+	<capitalPais>Libreville</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>267667.0</areaPais>
+	<lenguajesPais>['fr-GA']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>United Kingdom</nombrePais>
+	<codigosPais>['GB', 'UK', '826', 'GBR', '2635167']</codigosPais>
+	<monedaPais>GBP</monedaPais>
+	<poblacionPais>66488991</poblacionPais>
+	<capitalPais>London</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>244820.0</areaPais>
+	<lenguajesPais>['en-GB,cy-GB,gd']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Grenada</nombrePais>
+	<codigosPais>['GD', 'GJ', '308', 'GRD', '3580239']</codigosPais>
+	<monedaPais>XCD</monedaPais>
+	<poblacionPais>111454</poblacionPais>
+	<capitalPais>St. George '' s</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>344.0</areaPais>
+	<lenguajesPais>['en-GD']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Georgia</nombrePais>
+	<codigosPais>['GE', 'GG', '268', 'GEO', '614540']</codigosPais>
+	<monedaPais>GEL</monedaPais>
+	<poblacionPais>3731000</poblacionPais>
+	<capitalPais>Tbilisi</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>69700.0</areaPais>
+	<lenguajesPais>['ka,ru,hy,az']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>French Guiana</nombrePais>
+	<codigosPais>['GF', 'FG', '254', 'GUF', '3381670']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>195506</poblacionPais>
+	<capitalPais>Cayenne</capitalPais>
+	<continentePais>['South America', 'SA']</continentePais>
+	<areaPais>91000.0</areaPais>
+	<lenguajesPais>['fr-GF']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Guernsey</nombrePais>
+	<codigosPais>['GG', 'GK', '831', 'GGY', '3042362']</codigosPais>
+	<monedaPais>GBP</monedaPais>
+	<poblacionPais>65228</poblacionPais>
+	<capitalPais>St Peter Port</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>78.0</areaPais>
+	<lenguajesPais>['en,nrf']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Ghana</nombrePais>
+	<codigosPais>['GH', 'GH', '288', 'GHA', '2300660']</codigosPais>
+	<monedaPais>GHS</monedaPais>
+	<poblacionPais>29767108</poblacionPais>
+	<capitalPais>Accra</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>239460.0</areaPais>
+	<lenguajesPais>['en-GH,ak,ee,tw']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Gibraltar</nombrePais>
+	<codigosPais>['GI', 'GI', '292', 'GIB', '2411586']</codigosPais>
+	<monedaPais>GIP</monedaPais>
+	<poblacionPais>33718</poblacionPais>
+	<capitalPais>Gibraltar</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>6.5</areaPais>
+	<lenguajesPais>['en-GI,es,it,pt']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Greenland</nombrePais>
+	<codigosPais>['GL', 'GL', '304', 'GRL', '3425505']</codigosPais>
+	<monedaPais>DKK</monedaPais>
+	<poblacionPais>56025</poblacionPais>
+	<capitalPais>Nuuk</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>2166086.0</areaPais>
+	<lenguajesPais>['kl,da-GL,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>The Gambia</nombrePais>
+	<codigosPais>['GM', 'GA', '270', 'GMB', '2413451']</codigosPais>
+	<monedaPais>GMD</monedaPais>
+	<poblacionPais>2280102</poblacionPais>
+	<capitalPais>Banjul</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>11300.0</areaPais>
+	<lenguajesPais>['en-GM,mnk,wof,wo,ff']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Guinea</nombrePais>
+	<codigosPais>['GN', 'GV', '324', 'GIN', '2420477']</codigosPais>
+	<monedaPais>GNF</monedaPais>
+	<poblacionPais>12414318</poblacionPais>
+	<capitalPais>Conakry</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>245857.0</areaPais>
+	<lenguajesPais>['fr-GN']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Guadeloupe</nombrePais>
+	<codigosPais>['GP', 'GP', '312', 'GLP', '3579143']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>443000</poblacionPais>
+	<capitalPais>Basse-Terre</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>1780.0</areaPais>
+	<lenguajesPais>['fr-GP']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Equatorial Guinea</nombrePais>
+	<codigosPais>['GQ', 'EK', '226', 'GNQ', '2309096']</codigosPais>
+	<monedaPais>XAF</monedaPais>
+	<poblacionPais>1308974</poblacionPais>
+	<capitalPais>Malabo</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>28051.0</areaPais>
+	<lenguajesPais>['es-GQ,fr,pt']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Greece</nombrePais>
+	<codigosPais>['GR', 'GR', '300', 'GRC', '390903']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>10727668</poblacionPais>
+	<capitalPais>Athens</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>131940.0</areaPais>
+	<lenguajesPais>['el-GR,en,fr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>South Georgia and South Sandwich Islands</nombrePais>
+	<codigosPais>['GS', 'SX', '239', 'SGS', '3474415']</codigosPais>
+	<monedaPais>GBP</monedaPais>
+	<poblacionPais>30</poblacionPais>
+	<capitalPais>Grytviken</capitalPais>
+	<continentePais>['Antarctica', 'AN']</continentePais>
+	<areaPais>3903.0</areaPais>
+	<lenguajesPais>['en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Guatemala</nombrePais>
+	<codigosPais>['GT', 'GT', '320', 'GTM', '3595528']</codigosPais>
+	<monedaPais>GTQ</monedaPais>
+	<poblacionPais>17247807</poblacionPais>
+	<capitalPais>Guatemala City</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>108890.0</areaPais>
+	<lenguajesPais>['es-GT']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Guam</nombrePais>
+	<codigosPais>['GU', 'GQ', '316', 'GUM', '4043988']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>165768</poblacionPais>
+	<capitalPais>Hagåtña</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>549.0</areaPais>
+	<lenguajesPais>['en-GU,ch-GU']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Guinea-Bissau</nombrePais>
+	<codigosPais>['GW', 'PU', '624', 'GNB', '2372248']</codigosPais>
+	<monedaPais>XOF</monedaPais>
+	<poblacionPais>1874309</poblacionPais>
+	<capitalPais>Bissau</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>36120.0</areaPais>
+	<lenguajesPais>['pt-GW,pov']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Guyana</nombrePais>
+	<codigosPais>['GY', 'GY', '328', 'GUY', '3378535']</codigosPais>
+	<monedaPais>GYD</monedaPais>
+	<poblacionPais>779004</poblacionPais>
+	<capitalPais>Georgetown</capitalPais>
+	<continentePais>['South America', 'SA']</continentePais>
+	<areaPais>214970.0</areaPais>
+	<lenguajesPais>['en-GY']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Hong Kong</nombrePais>
+	<codigosPais>['HK', 'HK', '344', 'HKG', '1819730']</codigosPais>
+	<monedaPais>HKD</monedaPais>
+	<poblacionPais>7451000</poblacionPais>
+	<capitalPais>Hong Kong</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>1092.0</areaPais>
+	<lenguajesPais>['zh-HK,yue,zh,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Heard and McDonald Islands</nombrePais>
+	<codigosPais>['HM', 'HM', '334', 'HMD', '1547314']</codigosPais>
+	<monedaPais>AUD</monedaPais>
+	<poblacionPais>0</poblacionPais>
+	<capitalPais></capitalPais>
+	<continentePais>['Antarctica', 'AN']</continentePais>
+	<areaPais>412.0</areaPais>
+	<lenguajesPais>['']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Honduras</nombrePais>
+	<codigosPais>['HN', 'HO', '340', 'HND', '3608932']</codigosPais>
+	<monedaPais>HNL</monedaPais>
+	<poblacionPais>9587522</poblacionPais>
+	<capitalPais>Tegucigalpa</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>112090.0</areaPais>
+	<lenguajesPais>['es-HN,cab,miq']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Croatia</nombrePais>
+	<codigosPais>['HR', 'HR', '191', 'HRV', '3202326']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>3871833</poblacionPais>
+	<capitalPais>Zagreb</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>56542.0</areaPais>
+	<lenguajesPais>['hr-HR,sr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Haiti</nombrePais>
+	<codigosPais>['HT', 'HA', '332', 'HTI', '3723988']</codigosPais>
+	<monedaPais>HTG</monedaPais>
+	<poblacionPais>11123176</poblacionPais>
+	<capitalPais>Port-au-Prince</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>27750.0</areaPais>
+	<lenguajesPais>['ht,fr-HT']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Hungary</nombrePais>
+	<codigosPais>['HU', 'HU', '348', 'HUN', '719819']</codigosPais>
+	<monedaPais>HUF</monedaPais>
+	<poblacionPais>9768785</poblacionPais>
+	<capitalPais>Budapest</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>93030.0</areaPais>
+	<lenguajesPais>['hu-HU']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Indonesia</nombrePais>
+	<codigosPais>['ID', 'ID', '360', 'IDN', '1643084']</codigosPais>
+	<monedaPais>IDR</monedaPais>
+	<poblacionPais>267663435</poblacionPais>
+	<capitalPais>Jakarta</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>1919440.0</areaPais>
+	<lenguajesPais>['id,en,nl,jv']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Ireland</nombrePais>
+	<codigosPais>['IE', 'EI', '372', 'IRL', '2963597']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>4853506</poblacionPais>
+	<capitalPais>Dublin</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>70280.0</areaPais>
+	<lenguajesPais>['en-IE,ga-IE']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Israel</nombrePais>
+	<codigosPais>['IL', 'IS', '376', 'ISR', '294640']</codigosPais>
+	<monedaPais>ILS</monedaPais>
+	<poblacionPais>8883800</poblacionPais>
+	<capitalPais></capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>20770.0</areaPais>
+	<lenguajesPais>['he,ar-IL,en-IL,']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Isle of Man</nombrePais>
+	<codigosPais>['IM', 'IM', '833', 'IMN', '3042225']</codigosPais>
+	<monedaPais>GBP</monedaPais>
+	<poblacionPais>84077</poblacionPais>
+	<capitalPais>Douglas</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>572.0</areaPais>
+	<lenguajesPais>['en,gv']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>India</nombrePais>
+	<codigosPais>['IN', 'IN', '356', 'IND', '1269750']</codigosPais>
+	<monedaPais>INR</monedaPais>
+	<poblacionPais>1352617328</poblacionPais>
+	<capitalPais>New Delhi</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>3287590.0</areaPais>
+	<lenguajesPais>['en-IN,hi,bn,te,mr,ta,ur,gu,kn,ml,or,pa,as,bh,sat,ks,ne,sd,kok,doi,mni,sit,sa,fr,lus,inc']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>British Indian Ocean Territory</nombrePais>
+	<codigosPais>['IO', 'IO', '086', 'IOT', '1282588']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>4000</poblacionPais>
+	<capitalPais></capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>60.0</areaPais>
+	<lenguajesPais>['en-IO']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Iraq</nombrePais>
+	<codigosPais>['IQ', 'IZ', '368', 'IRQ', '99237']</codigosPais>
+	<monedaPais>IQD</monedaPais>
+	<poblacionPais>38433600</poblacionPais>
+	<capitalPais>Baghdad</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>437072.0</areaPais>
+	<lenguajesPais>['ar-IQ,ku,hy']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Iran</nombrePais>
+	<codigosPais>['IR', 'IR', '364', 'IRN', '130758']</codigosPais>
+	<monedaPais>IRR</monedaPais>
+	<poblacionPais>81800269</poblacionPais>
+	<capitalPais>Tehran</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>1648000.0</areaPais>
+	<lenguajesPais>['fa-IR,ku']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Iceland</nombrePais>
+	<codigosPais>['IS', 'IC', '352', 'ISL', '2629691']</codigosPais>
+	<monedaPais>ISK</monedaPais>
+	<poblacionPais>353574</poblacionPais>
+	<capitalPais>Reykjavik</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>103000.0</areaPais>
+	<lenguajesPais>['is,en,de,da,sv,no']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Italy</nombrePais>
+	<codigosPais>['IT', 'IT', '380', 'ITA', '3175395']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>60431283</poblacionPais>
+	<capitalPais>Rome</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>301230.0</areaPais>
+	<lenguajesPais>['it-IT,de-IT,fr-IT,sc,ca,co,sl']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Jersey</nombrePais>
+	<codigosPais>['JE', 'JE', '832', 'JEY', '3042142']</codigosPais>
+	<monedaPais>GBP</monedaPais>
+	<poblacionPais>90812</poblacionPais>
+	<capitalPais>Saint Helier</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>116.0</areaPais>
+	<lenguajesPais>['en,fr,nrf']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Jamaica</nombrePais>
+	<codigosPais>['JM', 'JM', '388', 'JAM', '3489940']</codigosPais>
+	<monedaPais>JMD</monedaPais>
+	<poblacionPais>2934855</poblacionPais>
+	<capitalPais>Kingston</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>10991.0</areaPais>
+	<lenguajesPais>['en-JM']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Jordan</nombrePais>
+	<codigosPais>['JO', 'JO', '400', 'JOR', '248816']</codigosPais>
+	<monedaPais>JOD</monedaPais>
+	<poblacionPais>9956011</poblacionPais>
+	<capitalPais>Amman</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>92300.0</areaPais>
+	<lenguajesPais>['ar-JO,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Japan</nombrePais>
+	<codigosPais>['JP', 'JA', '392', 'JPN', '1861060']</codigosPais>
+	<monedaPais>JPY</monedaPais>
+	<poblacionPais>126529100</poblacionPais>
+	<capitalPais>Tokyo</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>377835.0</areaPais>
+	<lenguajesPais>['ja']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Kenya</nombrePais>
+	<codigosPais>['KE', 'KE', '404', 'KEN', '192950']</codigosPais>
+	<monedaPais>KES</monedaPais>
+	<poblacionPais>51393010</poblacionPais>
+	<capitalPais>Nairobi</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>582650.0</areaPais>
+	<lenguajesPais>['en-KE,sw-KE']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Kyrgyzstan</nombrePais>
+	<codigosPais>['KG', 'KG', '417', 'KGZ', '1527747']</codigosPais>
+	<monedaPais>KGS</monedaPais>
+	<poblacionPais>6315800</poblacionPais>
+	<capitalPais>Bishkek</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>198500.0</areaPais>
+	<lenguajesPais>['ky,uz,ru']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Cambodia</nombrePais>
+	<codigosPais>['KH', 'CB', '116', 'KHM', '1831722']</codigosPais>
+	<monedaPais>KHR</monedaPais>
+	<poblacionPais>16249798</poblacionPais>
+	<capitalPais>Phnom Penh</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>181040.0</areaPais>
+	<lenguajesPais>['km,fr,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Kiribati</nombrePais>
+	<codigosPais>['KI', 'KR', '296', 'KIR', '4030945']</codigosPais>
+	<monedaPais>AUD</monedaPais>
+	<poblacionPais>115847</poblacionPais>
+	<capitalPais>Tarawa</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>811.0</areaPais>
+	<lenguajesPais>['en-KI,gil']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Comoros</nombrePais>
+	<codigosPais>['KM', 'CN', '174', 'COM', '921929']</codigosPais>
+	<monedaPais>KMF</monedaPais>
+	<poblacionPais>832322</poblacionPais>
+	<capitalPais>Moroni</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>2170.0</areaPais>
+	<lenguajesPais>['ar,fr-KM']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>St Kitts and Nevis</nombrePais>
+	<codigosPais>['KN', 'SC', '659', 'KNA', '3575174']</codigosPais>
+	<monedaPais>XCD</monedaPais>
+	<poblacionPais>52441</poblacionPais>
+	<capitalPais>Basseterre</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>261.0</areaPais>
+	<lenguajesPais>['en-KN']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>North Korea</nombrePais>
+	<codigosPais>['KP', 'KN', '408', 'PRK', '1873107']</codigosPais>
+	<monedaPais>KPW</monedaPais>
+	<poblacionPais>25549819</poblacionPais>
+	<capitalPais>Pyongyang</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>120540.0</areaPais>
+	<lenguajesPais>['ko-KP']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>South Korea</nombrePais>
+	<codigosPais>['KR', 'KS', '410', 'KOR', '1835841']</codigosPais>
+	<monedaPais>KRW</monedaPais>
+	<poblacionPais>51635256</poblacionPais>
+	<capitalPais>Seoul</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>98480.0</areaPais>
+	<lenguajesPais>['ko-KR,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Kuwait</nombrePais>
+	<codigosPais>['KW', 'KU', '414', 'KWT', '285570']</codigosPais>
+	<monedaPais>KWD</monedaPais>
+	<poblacionPais>4137309</poblacionPais>
+	<capitalPais>Kuwait City</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>17820.0</areaPais>
+	<lenguajesPais>['ar-KW,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Cayman Islands</nombrePais>
+	<codigosPais>['KY', 'CJ', '136', 'CYM', '3580718']</codigosPais>
+	<monedaPais>KYD</monedaPais>
+	<poblacionPais>64174</poblacionPais>
+	<capitalPais>George Town</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>262.0</areaPais>
+	<lenguajesPais>['en-KY']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Kazakhstan</nombrePais>
+	<codigosPais>['KZ', 'KZ', '398', 'KAZ', '1522867']</codigosPais>
+	<monedaPais>KZT</monedaPais>
+	<poblacionPais>18276499</poblacionPais>
+	<capitalPais>Nur-Sultan</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>2717300.0</areaPais>
+	<lenguajesPais>['kk,ru']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Laos</nombrePais>
+	<codigosPais>['LA', 'LA', '418', 'LAO', '1655842']</codigosPais>
+	<monedaPais>LAK</monedaPais>
+	<poblacionPais>7061507</poblacionPais>
+	<capitalPais>Vientiane</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>236800.0</areaPais>
+	<lenguajesPais>['lo,fr,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Lebanon</nombrePais>
+	<codigosPais>['LB', 'LE', '422', 'LBN', '272103']</codigosPais>
+	<monedaPais>LBP</monedaPais>
+	<poblacionPais>6848925</poblacionPais>
+	<capitalPais>Beirut</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>10400.0</areaPais>
+	<lenguajesPais>['ar-LB,fr-LB,en,hy']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Saint Lucia</nombrePais>
+	<codigosPais>['LC', 'ST', '662', 'LCA', '3576468']</codigosPais>
+	<monedaPais>XCD</monedaPais>
+	<poblacionPais>181889</poblacionPais>
+	<capitalPais>Castries</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>616.0</areaPais>
+	<lenguajesPais>['en-LC']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Liechtenstein</nombrePais>
+	<codigosPais>['LI', 'LS', '438', 'LIE', '3042058']</codigosPais>
+	<monedaPais>CHF</monedaPais>
+	<poblacionPais>37910</poblacionPais>
+	<capitalPais>Vaduz</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>160.0</areaPais>
+	<lenguajesPais>['de-LI']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Sri Lanka</nombrePais>
+	<codigosPais>['LK', 'CE', '144', 'LKA', '1227603']</codigosPais>
+	<monedaPais>LKR</monedaPais>
+	<poblacionPais>21670000</poblacionPais>
+	<capitalPais>Colombo</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>65610.0</areaPais>
+	<lenguajesPais>['si,ta,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Liberia</nombrePais>
+	<codigosPais>['LR', 'LI', '430', 'LBR', '2275384']</codigosPais>
+	<monedaPais>LRD</monedaPais>
+	<poblacionPais>4818977</poblacionPais>
+	<capitalPais>Monrovia</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>111370.0</areaPais>
+	<lenguajesPais>['en-LR']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Lesotho</nombrePais>
+	<codigosPais>['LS', 'LT', '426', 'LSO', '932692']</codigosPais>
+	<monedaPais>LSL</monedaPais>
+	<poblacionPais>2108132</poblacionPais>
+	<capitalPais>Maseru</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>30355.0</areaPais>
+	<lenguajesPais>['en-LS,st,zu,xh']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Lithuania</nombrePais>
+	<codigosPais>['LT', 'LH', '440', 'LTU', '597427']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>2789533</poblacionPais>
+	<capitalPais>Vilnius</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>65200.0</areaPais>
+	<lenguajesPais>['lt,ru,pl']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Luxembourg</nombrePais>
+	<codigosPais>['LU', 'LU', '442', 'LUX', '2960313']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>607728</poblacionPais>
+	<capitalPais>Luxembourg</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>2586.0</areaPais>
+	<lenguajesPais>['lb,de-LU,fr-LU']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Latvia</nombrePais>
+	<codigosPais>['LV', 'LG', '428', 'LVA', '458258']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>1926542</poblacionPais>
+	<capitalPais>Riga</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>64589.0</areaPais>
+	<lenguajesPais>['lv,ru,lt']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Libya</nombrePais>
+	<codigosPais>['LY', 'LY', '434', 'LBY', '2215636']</codigosPais>
+	<monedaPais>LYD</monedaPais>
+	<poblacionPais>6678567</poblacionPais>
+	<capitalPais>Tripoli</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>1759540.0</areaPais>
+	<lenguajesPais>['ar-LY,it,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Morocco</nombrePais>
+	<codigosPais>['MA', 'MO', '504', 'MAR', '2542007']</codigosPais>
+	<monedaPais>MAD</monedaPais>
+	<poblacionPais>36029138</poblacionPais>
+	<capitalPais>Rabat</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>446550.0</areaPais>
+	<lenguajesPais>['ar-MA,ber,fr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Monaco</nombrePais>
+	<codigosPais>['MC', 'MN', '492', 'MCO', '2993457']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>38682</poblacionPais>
+	<capitalPais>Monaco</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>1.95</areaPais>
+	<lenguajesPais>['fr-MC,en,it']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Moldova</nombrePais>
+	<codigosPais>['MD', 'MD', '498', 'MDA', '617790']</codigosPais>
+	<monedaPais>MDL</monedaPais>
+	<poblacionPais>3545883</poblacionPais>
+	<capitalPais>Chișinău</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>33843.0</areaPais>
+	<lenguajesPais>['ro,ru,gag,tr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Montenegro</nombrePais>
+	<codigosPais>['ME', 'MJ', '499', 'MNE', '3194884']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>622345</poblacionPais>
+	<capitalPais>Podgorica</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>14026.0</areaPais>
+	<lenguajesPais>['sr,hu,bs,sq,hr,rom']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Saint Martin</nombrePais>
+	<codigosPais>['MF', 'RN', '663', 'MAF', '3578421']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>37264</poblacionPais>
+	<capitalPais>Marigot</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>53.0</areaPais>
+	<lenguajesPais>['fr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Madagascar</nombrePais>
+	<codigosPais>['MG', 'MA', '450', 'MDG', '1062947']</codigosPais>
+	<monedaPais>MGA</monedaPais>
+	<poblacionPais>26262368</poblacionPais>
+	<capitalPais>Antananarivo</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>587040.0</areaPais>
+	<lenguajesPais>['fr-MG,mg']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Marshall Islands</nombrePais>
+	<codigosPais>['MH', 'RM', '584', 'MHL', '2080185']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>58413</poblacionPais>
+	<capitalPais>Majuro</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>181.3</areaPais>
+	<lenguajesPais>['mh,en-MH']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>North Macedonia</nombrePais>
+	<codigosPais>['MK', 'MK', '807', 'MKD', '718075']</codigosPais>
+	<monedaPais>MKD</monedaPais>
+	<poblacionPais>2082958</poblacionPais>
+	<capitalPais>Skopje</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>25333.0</areaPais>
+	<lenguajesPais>['mk,sq,tr,rmm,sr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Mali</nombrePais>
+	<codigosPais>['ML', 'ML', '466', 'MLI', '2453866']</codigosPais>
+	<monedaPais>XOF</monedaPais>
+	<poblacionPais>19077690</poblacionPais>
+	<capitalPais>Bamako</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>1240000.0</areaPais>
+	<lenguajesPais>['fr-ML,bm']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Myanmar</nombrePais>
+	<codigosPais>['MM', 'BM', '104', 'MMR', '1327865']</codigosPais>
+	<monedaPais>MMK</monedaPais>
+	<poblacionPais>53708395</poblacionPais>
+	<capitalPais>Nay Pyi Taw</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>678500.0</areaPais>
+	<lenguajesPais>['my']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Mongolia</nombrePais>
+	<codigosPais>['MN', 'MG', '496', 'MNG', '2029969']</codigosPais>
+	<monedaPais>MNT</monedaPais>
+	<poblacionPais>3170208</poblacionPais>
+	<capitalPais>Ulaanbaatar</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>1565000.0</areaPais>
+	<lenguajesPais>['mn,ru']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Macao</nombrePais>
+	<codigosPais>['MO', 'MC', '446', 'MAC', '1821275']</codigosPais>
+	<monedaPais>MOP</monedaPais>
+	<poblacionPais>631636</poblacionPais>
+	<capitalPais>Macao</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>254.0</areaPais>
+	<lenguajesPais>['zh,zh-MO,pt']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Northern Mariana Islands</nombrePais>
+	<codigosPais>['MP', 'CQ', '580', 'MNP', '4041468']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>56882</poblacionPais>
+	<capitalPais>Saipan</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>477.0</areaPais>
+	<lenguajesPais>['fil,tl,zh,ch-MP,en-MP']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Martinique</nombrePais>
+	<codigosPais>['MQ', 'MB', '474', 'MTQ', '3570311']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>432900</poblacionPais>
+	<capitalPais>Fort-de-France</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>1100.0</areaPais>
+	<lenguajesPais>['fr-MQ']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Mauritania</nombrePais>
+	<codigosPais>['MR', 'MR', '478', 'MRT', '2378080']</codigosPais>
+	<monedaPais>MRU</monedaPais>
+	<poblacionPais>4403319</poblacionPais>
+	<capitalPais>Nouakchott</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>1030700.0</areaPais>
+	<lenguajesPais>['ar-MR,fuc,snk,fr,mey,wo']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Montserrat</nombrePais>
+	<codigosPais>['MS', 'MH', '500', 'MSR', '3578097']</codigosPais>
+	<monedaPais>XCD</monedaPais>
+	<poblacionPais>9341</poblacionPais>
+	<capitalPais>Plymouth</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>102.0</areaPais>
+	<lenguajesPais>['en-MS']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Malta</nombrePais>
+	<codigosPais>['MT', 'MT', '470', 'MLT', '2562770']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>483530</poblacionPais>
+	<capitalPais>Valletta</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>316.0</areaPais>
+	<lenguajesPais>['mt,en-MT']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Mauritius</nombrePais>
+	<codigosPais>['MU', 'MP', '480', 'MUS', '934292']</codigosPais>
+	<monedaPais>MUR</monedaPais>
+	<poblacionPais>1265303</poblacionPais>
+	<capitalPais>Port Louis</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>2040.0</areaPais>
+	<lenguajesPais>['en-MU,bho,fr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Maldives</nombrePais>
+	<codigosPais>['MV', 'MV', '462', 'MDV', '1282028']</codigosPais>
+	<monedaPais>MVR</monedaPais>
+	<poblacionPais>515696</poblacionPais>
+	<capitalPais>Malé</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>300.0</areaPais>
+	<lenguajesPais>['dv,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Malawi</nombrePais>
+	<codigosPais>['MW', 'MI', '454', 'MWI', '927384']</codigosPais>
+	<monedaPais>MWK</monedaPais>
+	<poblacionPais>17563749</poblacionPais>
+	<capitalPais>Lilongwe</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>118480.0</areaPais>
+	<lenguajesPais>['ny,yao,tum,swk']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Mexico</nombrePais>
+	<codigosPais>['MX', 'MX', '484', 'MEX', '3996063']</codigosPais>
+	<monedaPais>MXN</monedaPais>
+	<poblacionPais>126190788</poblacionPais>
+	<capitalPais>Mexico City</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>1972550.0</areaPais>
+	<lenguajesPais>['es-MX']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Malaysia</nombrePais>
+	<codigosPais>['MY', 'MY', '458', 'MYS', '1733045']</codigosPais>
+	<monedaPais>MYR</monedaPais>
+	<poblacionPais>31528585</poblacionPais>
+	<capitalPais>Kuala Lumpur</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>329750.0</areaPais>
+	<lenguajesPais>['ms-MY,en,zh,ta,te,ml,pa,th']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Mozambique</nombrePais>
+	<codigosPais>['MZ', 'MZ', '508', 'MOZ', '1036973']</codigosPais>
+	<monedaPais>MZN</monedaPais>
+	<poblacionPais>29495962</poblacionPais>
+	<capitalPais>Maputo</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>801590.0</areaPais>
+	<lenguajesPais>['pt-MZ,vmw']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Namibia</nombrePais>
+	<codigosPais>['NA', 'WA', '516', 'NAM', '3355338']</codigosPais>
+	<monedaPais>NAD</monedaPais>
+	<poblacionPais>2448255</poblacionPais>
+	<capitalPais>Windhoek</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>825418.0</areaPais>
+	<lenguajesPais>['en-NA,af,de,hz,naq']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>New Caledonia</nombrePais>
+	<codigosPais>['NC', 'NC', '540', 'NCL', '2139685']</codigosPais>
+	<monedaPais>XPF</monedaPais>
+	<poblacionPais>284060</poblacionPais>
+	<capitalPais>Noumea</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>19060.0</areaPais>
+	<lenguajesPais>['fr-NC']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Niger</nombrePais>
+	<codigosPais>['NE', 'NG', '562', 'NER', '2440476']</codigosPais>
+	<monedaPais>XOF</monedaPais>
+	<poblacionPais>22442948</poblacionPais>
+	<capitalPais>Niamey</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>1267000.0</areaPais>
+	<lenguajesPais>['fr-NE,ha,kr,dje']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Norfolk Island</nombrePais>
+	<codigosPais>['NF', 'NF', '574', 'NFK', '2155115']</codigosPais>
+	<monedaPais>AUD</monedaPais>
+	<poblacionPais>1828</poblacionPais>
+	<capitalPais>Kingston</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>34.6</areaPais>
+	<lenguajesPais>['en-NF']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Nigeria</nombrePais>
+	<codigosPais>['NG', 'NI', '566', 'NGA', '2328926']</codigosPais>
+	<monedaPais>NGN</monedaPais>
+	<poblacionPais>195874740</poblacionPais>
+	<capitalPais>Abuja</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>923768.0</areaPais>
+	<lenguajesPais>['en-NG,ha,yo,ig,ff']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Nicaragua</nombrePais>
+	<codigosPais>['NI', 'NU', '558', 'NIC', '3617476']</codigosPais>
+	<monedaPais>NIO</monedaPais>
+	<poblacionPais>6465513</poblacionPais>
+	<capitalPais>Managua</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>129494.0</areaPais>
+	<lenguajesPais>['es-NI,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Netherlands</nombrePais>
+	<codigosPais>['NL', 'NL', '528', 'NLD', '2750405']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>17231017</poblacionPais>
+	<capitalPais>Amsterdam</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>41526.0</areaPais>
+	<lenguajesPais>['nl-NL,fy-NL']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Norway</nombrePais>
+	<codigosPais>['NO', 'NO', '578', 'NOR', '3144096']</codigosPais>
+	<monedaPais>NOK</monedaPais>
+	<poblacionPais>5314336</poblacionPais>
+	<capitalPais>Oslo</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>324220.0</areaPais>
+	<lenguajesPais>['no,nb,nn,se,fi']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Nepal</nombrePais>
+	<codigosPais>['NP', 'NP', '524', 'NPL', '1282988']</codigosPais>
+	<monedaPais>NPR</monedaPais>
+	<poblacionPais>28087871</poblacionPais>
+	<capitalPais>Kathmandu</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>140800.0</areaPais>
+	<lenguajesPais>['ne,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Nauru</nombrePais>
+	<codigosPais>['NR', 'NR', '520', 'NRU', '2110425']</codigosPais>
+	<monedaPais>AUD</monedaPais>
+	<poblacionPais>12704</poblacionPais>
+	<capitalPais>Yaren District</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>21.0</areaPais>
+	<lenguajesPais>['na,en-NR']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Niue</nombrePais>
+	<codigosPais>['NU', 'NE', '570', 'NIU', '4036232']</codigosPais>
+	<monedaPais>NZD</monedaPais>
+	<poblacionPais>2166</poblacionPais>
+	<capitalPais>Alofi</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>260.0</areaPais>
+	<lenguajesPais>['niu,en-NU']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>New Zealand</nombrePais>
+	<codigosPais>['NZ', 'NZ', '554', 'NZL', '2186224']</codigosPais>
+	<monedaPais>NZD</monedaPais>
+	<poblacionPais>4885500</poblacionPais>
+	<capitalPais>Wellington</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>268680.0</areaPais>
+	<lenguajesPais>['en-NZ,mi']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Oman</nombrePais>
+	<codigosPais>['OM', 'MU', '512', 'OMN', '286963']</codigosPais>
+	<monedaPais>OMR</monedaPais>
+	<poblacionPais>4829483</poblacionPais>
+	<capitalPais>Muscat</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>212460.0</areaPais>
+	<lenguajesPais>['ar-OM,en,bal,ur']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Panama</nombrePais>
+	<codigosPais>['PA', 'PM', '591', 'PAN', '3703430']</codigosPais>
+	<monedaPais>PAB</monedaPais>
+	<poblacionPais>4176873</poblacionPais>
+	<capitalPais>Panama City</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>78200.0</areaPais>
+	<lenguajesPais>['es-PA,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Peru</nombrePais>
+	<codigosPais>['PE', 'PE', '604', 'PER', '3932488']</codigosPais>
+	<monedaPais>PEN</monedaPais>
+	<poblacionPais>31989256</poblacionPais>
+	<capitalPais>Lima</capitalPais>
+	<continentePais>['South America', 'SA']</continentePais>
+	<areaPais>1285220.0</areaPais>
+	<lenguajesPais>['es-PE,qu,ay']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>French Polynesia</nombrePais>
+	<codigosPais>['PF', 'FP', '258', 'PYF', '4030656']</codigosPais>
+	<monedaPais>XPF</monedaPais>
+	<poblacionPais>277679</poblacionPais>
+	<capitalPais>Papeete</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>4167.0</areaPais>
+	<lenguajesPais>['fr-PF,ty']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Papua New Guinea</nombrePais>
+	<codigosPais>['PG', 'PP', '598', 'PNG', '2088628']</codigosPais>
+	<monedaPais>PGK</monedaPais>
+	<poblacionPais>8606316</poblacionPais>
+	<capitalPais>Port Moresby</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>462840.0</areaPais>
+	<lenguajesPais>['en-PG,ho,meu,tpi']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Philippines</nombrePais>
+	<codigosPais>['PH', 'RP', '608', 'PHL', '1694008']</codigosPais>
+	<monedaPais>PHP</monedaPais>
+	<poblacionPais>106651922</poblacionPais>
+	<capitalPais>Manila</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>300000.0</areaPais>
+	<lenguajesPais>['tl,en-PH,fil,ceb,ilo,hil,war,pam,bik,bcl,pag,mrw,tsg,mdh,cbk,krj,sgd,msb,akl,ibg,yka,mta,abx']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Pakistan</nombrePais>
+	<codigosPais>['PK', 'PK', '586', 'PAK', '1168579']</codigosPais>
+	<monedaPais>PKR</monedaPais>
+	<poblacionPais>212215030</poblacionPais>
+	<capitalPais>Islamabad</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>803940.0</areaPais>
+	<lenguajesPais>['ur-PK,en-PK,pa,sd,ps,brh']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Poland</nombrePais>
+	<codigosPais>['PL', 'PL', '616', 'POL', '798544']</codigosPais>
+	<monedaPais>PLN</monedaPais>
+	<poblacionPais>37978548</poblacionPais>
+	<capitalPais>Warsaw</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>312685.0</areaPais>
+	<lenguajesPais>['pl']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Saint Pierre and Miquelon</nombrePais>
+	<codigosPais>['PM', 'SB', '666', 'SPM', '3424932']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>7012</poblacionPais>
+	<capitalPais>Saint-Pierre</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>242.0</areaPais>
+	<lenguajesPais>['fr-PM']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Pitcairn Islands</nombrePais>
+	<codigosPais>['PN', 'PC', '612', 'PCN', '4030699']</codigosPais>
+	<monedaPais>NZD</monedaPais>
+	<poblacionPais>46</poblacionPais>
+	<capitalPais>Adamstown</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>47.0</areaPais>
+	<lenguajesPais>['en-PN']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Puerto Rico</nombrePais>
+	<codigosPais>['PR', 'RQ', '630', 'PRI', '4566966']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>3195153</poblacionPais>
+	<capitalPais>San Juan</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>9104.0</areaPais>
+	<lenguajesPais>['en-PR,es-PR']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Palestine</nombrePais>
+	<codigosPais>['PS', 'WE', '275', 'PSE', '6254930']</codigosPais>
+	<monedaPais>ILS</monedaPais>
+	<poblacionPais>4569087</poblacionPais>
+	<capitalPais></capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>5970.0</areaPais>
+	<lenguajesPais>['ar-PS']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Portugal</nombrePais>
+	<codigosPais>['PT', 'PO', '620', 'PRT', '2264397']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>10281762</poblacionPais>
+	<capitalPais>Lisbon</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>92391.0</areaPais>
+	<lenguajesPais>['pt-PT,mwl']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Palau</nombrePais>
+	<codigosPais>['PW', 'PS', '585', 'PLW', '1559582']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>17907</poblacionPais>
+	<capitalPais>Ngerulmud</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>458.0</areaPais>
+	<lenguajesPais>['pau,sov,en-PW,tox,ja,fil,zh']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Paraguay</nombrePais>
+	<codigosPais>['PY', 'PA', '600', 'PRY', '3437598']</codigosPais>
+	<monedaPais>PYG</monedaPais>
+	<poblacionPais>6956071</poblacionPais>
+	<capitalPais>Asunción</capitalPais>
+	<continentePais>['South America', 'SA']</continentePais>
+	<areaPais>406750.0</areaPais>
+	<lenguajesPais>['es-PY,gn']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Qatar</nombrePais>
+	<codigosPais>['QA', 'QA', '634', 'QAT', '289688']</codigosPais>
+	<monedaPais>QAR</monedaPais>
+	<poblacionPais>2781677</poblacionPais>
+	<capitalPais>Doha</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>11437.0</areaPais>
+	<lenguajesPais>['ar-QA,es']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Réunion</nombrePais>
+	<codigosPais>['RE', 'RE', '638', 'REU', '935317']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>776948</poblacionPais>
+	<capitalPais>Saint-Denis</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>2517.0</areaPais>
+	<lenguajesPais>['fr-RE']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Romania</nombrePais>
+	<codigosPais>['RO', 'RO', '642', 'ROU', '798549']</codigosPais>
+	<monedaPais>RON</monedaPais>
+	<poblacionPais>19473936</poblacionPais>
+	<capitalPais>Bucharest</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>237500.0</areaPais>
+	<lenguajesPais>['ro,hu,rom']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Serbia</nombrePais>
+	<codigosPais>['RS', 'RI', '688', 'SRB', '6290252']</codigosPais>
+	<monedaPais>RSD</monedaPais>
+	<poblacionPais>6982084</poblacionPais>
+	<capitalPais>Belgrade</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>88361.0</areaPais>
+	<lenguajesPais>['sr,hu,bs,rom']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Russia</nombrePais>
+	<codigosPais>['RU', 'RS', '643', 'RUS', '2017370']</codigosPais>
+	<monedaPais>RUB</monedaPais>
+	<poblacionPais>144478050</poblacionPais>
+	<capitalPais>Moscow</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>1.71E7</areaPais>
+	<lenguajesPais>['ru,tt,xal,cau,ady,kv,ce,tyv,cv,udm,tut,mns,bua,myv,mdf,chm,ba,inh,kbd,krc,av,sah,nog']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Rwanda</nombrePais>
+	<codigosPais>['RW', 'RW', '646', 'RWA', '49518']</codigosPais>
+	<monedaPais>RWF</monedaPais>
+	<poblacionPais>12301939</poblacionPais>
+	<capitalPais>Kigali</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>26338.0</areaPais>
+	<lenguajesPais>['rw,en-RW,fr-RW,sw']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Saudi Arabia</nombrePais>
+	<codigosPais>['SA', 'SA', '682', 'SAU', '102358']</codigosPais>
+	<monedaPais>SAR</monedaPais>
+	<poblacionPais>33699947</poblacionPais>
+	<capitalPais>Riyadh</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>1960582.0</areaPais>
+	<lenguajesPais>['ar-SA']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Solomon Islands</nombrePais>
+	<codigosPais>['SB', 'BP', '090', 'SLB', '2103350']</codigosPais>
+	<monedaPais>SBD</monedaPais>
+	<poblacionPais>652858</poblacionPais>
+	<capitalPais>Honiara</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>28450.0</areaPais>
+	<lenguajesPais>['en-SB,tpi']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Seychelles</nombrePais>
+	<codigosPais>['SC', 'SE', '690', 'SYC', '241170']</codigosPais>
+	<monedaPais>SCR</monedaPais>
+	<poblacionPais>96762</poblacionPais>
+	<capitalPais>Victoria</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>455.0</areaPais>
+	<lenguajesPais>['en-SC,fr-SC']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Sudan</nombrePais>
+	<codigosPais>['SD', 'SU', '729', 'SDN', '366755']</codigosPais>
+	<monedaPais>SDG</monedaPais>
+	<poblacionPais>41801533</poblacionPais>
+	<capitalPais>Khartoum</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>1861484.0</areaPais>
+	<lenguajesPais>['ar-SD,en,fia']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Sweden</nombrePais>
+	<codigosPais>['SE', 'SW', '752', 'SWE', '2661886']</codigosPais>
+	<monedaPais>SEK</monedaPais>
+	<poblacionPais>10183175</poblacionPais>
+	<capitalPais>Stockholm</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>449964.0</areaPais>
+	<lenguajesPais>['sv-SE,se,sma,fi-SE']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Singapore</nombrePais>
+	<codigosPais>['SG', 'SN', '702', 'SGP', '1880251']</codigosPais>
+	<monedaPais>SGD</monedaPais>
+	<poblacionPais>5638676</poblacionPais>
+	<capitalPais>Singapore</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>692.7</areaPais>
+	<lenguajesPais>['cmn,en-SG,ms-SG,ta-SG,zh-SG']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Saint Helena</nombrePais>
+	<codigosPais>['SH', 'SH', '654', 'SHN', '3370751']</codigosPais>
+	<monedaPais>SHP</monedaPais>
+	<poblacionPais>7460</poblacionPais>
+	<capitalPais>Jamestown</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>410.0</areaPais>
+	<lenguajesPais>['en-SH']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Slovenia</nombrePais>
+	<codigosPais>['SI', 'SI', '705', 'SVN', '3190538']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>2067372</poblacionPais>
+	<capitalPais>Ljubljana</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>20273.0</areaPais>
+	<lenguajesPais>['sl,sh']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Svalbard and Jan Mayen</nombrePais>
+	<codigosPais>['SJ', 'SV', '744', 'SJM', '607072']</codigosPais>
+	<monedaPais>NOK</monedaPais>
+	<poblacionPais>2550</poblacionPais>
+	<capitalPais>Longyearbyen</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>62049.0</areaPais>
+	<lenguajesPais>['no,ru']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Slovakia</nombrePais>
+	<codigosPais>['SK', 'LO', '703', 'SVK', '3057568']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>5447011</poblacionPais>
+	<capitalPais>Bratislava</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>48845.0</areaPais>
+	<lenguajesPais>['sk,hu']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Sierra Leone</nombrePais>
+	<codigosPais>['SL', 'SL', '694', 'SLE', '2403846']</codigosPais>
+	<monedaPais>SLL</monedaPais>
+	<poblacionPais>7650154</poblacionPais>
+	<capitalPais>Freetown</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>71740.0</areaPais>
+	<lenguajesPais>['en-SL,men,tem']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>San Marino</nombrePais>
+	<codigosPais>['SM', 'SM', '674', 'SMR', '3168068']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>33785</poblacionPais>
+	<capitalPais>San Marino</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>61.2</areaPais>
+	<lenguajesPais>['it-SM']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Senegal</nombrePais>
+	<codigosPais>['SN', 'SG', '686', 'SEN', '2245662']</codigosPais>
+	<monedaPais>XOF</monedaPais>
+	<poblacionPais>15854360</poblacionPais>
+	<capitalPais>Dakar</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>196190.0</areaPais>
+	<lenguajesPais>['fr-SN,wo,fuc,mnk']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Somalia</nombrePais>
+	<codigosPais>['SO', 'SO', '706', 'SOM', '51537']</codigosPais>
+	<monedaPais>SOS</monedaPais>
+	<poblacionPais>15008154</poblacionPais>
+	<capitalPais>Mogadishu</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>637657.0</areaPais>
+	<lenguajesPais>['so-SO,ar-SO,it,en-SO']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Suriname</nombrePais>
+	<codigosPais>['SR', 'NS', '740', 'SUR', '3382998']</codigosPais>
+	<monedaPais>SRD</monedaPais>
+	<poblacionPais>575991</poblacionPais>
+	<capitalPais>Paramaribo</capitalPais>
+	<continentePais>['South America', 'SA']</continentePais>
+	<areaPais>163270.0</areaPais>
+	<lenguajesPais>['nl-SR,en,srn,hns,jv']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>South Sudan</nombrePais>
+	<codigosPais>['SS', 'OD', '728', 'SSD', '7909807']</codigosPais>
+	<monedaPais>SSP</monedaPais>
+	<poblacionPais>8260490</poblacionPais>
+	<capitalPais>Juba</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>644329.0</areaPais>
+	<lenguajesPais>['en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>São Tomé and Príncipe</nombrePais>
+	<codigosPais>['ST', 'TP', '678', 'STP', '2410758']</codigosPais>
+	<monedaPais>STN</monedaPais>
+	<poblacionPais>197700</poblacionPais>
+	<capitalPais>São Tomé</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>1001.0</areaPais>
+	<lenguajesPais>['pt-ST']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>El Salvador</nombrePais>
+	<codigosPais>['SV', 'ES', '222', 'SLV', '3585968']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>6420744</poblacionPais>
+	<capitalPais>San Salvador</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>21040.0</areaPais>
+	<lenguajesPais>['es-SV']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Sint Maarten</nombrePais>
+	<codigosPais>['SX', 'NN', '534', 'SXM', '7609695']</codigosPais>
+	<monedaPais>ANG</monedaPais>
+	<poblacionPais>40654</poblacionPais>
+	<capitalPais>Philipsburg</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>21.0</areaPais>
+	<lenguajesPais>['nl,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Syria</nombrePais>
+	<codigosPais>['SY', 'SY', '760', 'SYR', '163843']</codigosPais>
+	<monedaPais>SYP</monedaPais>
+	<poblacionPais>16906283</poblacionPais>
+	<capitalPais>Damascus</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>185180.0</areaPais>
+	<lenguajesPais>['ar-SY,ku,hy,arc,fr,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Eswatini</nombrePais>
+	<codigosPais>['SZ', 'WZ', '748', 'SWZ', '934841']</codigosPais>
+	<monedaPais>SZL</monedaPais>
+	<poblacionPais>1136191</poblacionPais>
+	<capitalPais>Mbabane</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>17363.0</areaPais>
+	<lenguajesPais>['en-SZ,ss-SZ']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Turks and Caicos Islands</nombrePais>
+	<codigosPais>['TC', 'TK', '796', 'TCA', '3576916']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>37665</poblacionPais>
+	<capitalPais>Cockburn Town</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>430.0</areaPais>
+	<lenguajesPais>['en-TC']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Chad</nombrePais>
+	<codigosPais>['TD', 'CD', '148', 'TCD', '2434508']</codigosPais>
+	<monedaPais>XAF</monedaPais>
+	<poblacionPais>15477751</poblacionPais>
+	<capitalPais>N '' Djamena</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>1284000.0</areaPais>
+	<lenguajesPais>['fr-TD,ar-TD,sre']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>French Southern Territories</nombrePais>
+	<codigosPais>['TF', 'FS', '260', 'ATF', '1546748']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>140</poblacionPais>
+	<capitalPais>Port-aux-Français</capitalPais>
+	<continentePais>['Antarctica', 'AN']</continentePais>
+	<areaPais>7829.0</areaPais>
+	<lenguajesPais>['fr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Togo</nombrePais>
+	<codigosPais>['TG', 'TO', '768', 'TGO', '2363686']</codigosPais>
+	<monedaPais>XOF</monedaPais>
+	<poblacionPais>7889094</poblacionPais>
+	<capitalPais>Lomé</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>56785.0</areaPais>
+	<lenguajesPais>['fr-TG,ee,hna,kbp,dag,ha']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Thailand</nombrePais>
+	<codigosPais>['TH', 'TH', '764', 'THA', '1605651']</codigosPais>
+	<monedaPais>THB</monedaPais>
+	<poblacionPais>69428524</poblacionPais>
+	<capitalPais>Bangkok</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>514000.0</areaPais>
+	<lenguajesPais>['th,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Tajikistan</nombrePais>
+	<codigosPais>['TJ', 'TI', '762', 'TJK', '1220409']</codigosPais>
+	<monedaPais>TJS</monedaPais>
+	<poblacionPais>9100837</poblacionPais>
+	<capitalPais>Dushanbe</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>143100.0</areaPais>
+	<lenguajesPais>['tg,ru']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Tokelau</nombrePais>
+	<codigosPais>['TK', 'TL', '772', 'TKL', '4031074']</codigosPais>
+	<monedaPais>NZD</monedaPais>
+	<poblacionPais>1466</poblacionPais>
+	<capitalPais></capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>10.0</areaPais>
+	<lenguajesPais>['tkl,en-TK']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Timor-Leste</nombrePais>
+	<codigosPais>['TL', 'TT', '626', 'TLS', '1966436']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>1267972</poblacionPais>
+	<capitalPais>Dili</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>15007.0</areaPais>
+	<lenguajesPais>['tet,pt-TL,id,en']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Turkmenistan</nombrePais>
+	<codigosPais>['TM', 'TX', '795', 'TKM', '1218197']</codigosPais>
+	<monedaPais>TMT</monedaPais>
+	<poblacionPais>5850908</poblacionPais>
+	<capitalPais>Ashgabat</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>488100.0</areaPais>
+	<lenguajesPais>['tk,ru,uz']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Tunisia</nombrePais>
+	<codigosPais>['TN', 'TS', '788', 'TUN', '2464461']</codigosPais>
+	<monedaPais>TND</monedaPais>
+	<poblacionPais>11565204</poblacionPais>
+	<capitalPais>Tunis</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>163610.0</areaPais>
+	<lenguajesPais>['ar-TN,fr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Tonga</nombrePais>
+	<codigosPais>['TO', 'TN', '776', 'TON', '4032283']</codigosPais>
+	<monedaPais>TOP</monedaPais>
+	<poblacionPais>103197</poblacionPais>
+	<capitalPais>Nuku '' alofa</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>748.0</areaPais>
+	<lenguajesPais>['to,en-TO']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Turkey</nombrePais>
+	<codigosPais>['TR', 'TU', '792', 'TUR', '298795']</codigosPais>
+	<monedaPais>TRY</monedaPais>
+	<poblacionPais>82319724</poblacionPais>
+	<capitalPais>Ankara</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>780580.0</areaPais>
+	<lenguajesPais>['tr-TR,ku,diq,az,av']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Trinidad and Tobago</nombrePais>
+	<codigosPais>['TT', 'TD', '780', 'TTO', '3573591']</codigosPais>
+	<monedaPais>TTD</monedaPais>
+	<poblacionPais>1389858</poblacionPais>
+	<capitalPais>Port of Spain</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>5128.0</areaPais>
+	<lenguajesPais>['en-TT,hns,fr,es,zh']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Tuvalu</nombrePais>
+	<codigosPais>['TV', 'TV', '798', 'TUV', '2110297']</codigosPais>
+	<monedaPais>AUD</monedaPais>
+	<poblacionPais>11508</poblacionPais>
+	<capitalPais>Funafuti</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>26.0</areaPais>
+	<lenguajesPais>['tvl,en,sm,gil']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Taiwan</nombrePais>
+	<codigosPais>['TW', 'TW', '158', 'TWN', '1668284']</codigosPais>
+	<monedaPais>TWD</monedaPais>
+	<poblacionPais>23451837</poblacionPais>
+	<capitalPais>Taipei</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>35980.0</areaPais>
+	<lenguajesPais>['zh-TW,zh,nan,hak']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Tanzania</nombrePais>
+	<codigosPais>['TZ', 'TZ', '834', 'TZA', '149590']</codigosPais>
+	<monedaPais>TZS</monedaPais>
+	<poblacionPais>56318348</poblacionPais>
+	<capitalPais>Dodoma</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>945087.0</areaPais>
+	<lenguajesPais>['sw-TZ,en,ar']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Ukraine</nombrePais>
+	<codigosPais>['UA', 'UP', '804', 'UKR', '690791']</codigosPais>
+	<monedaPais>UAH</monedaPais>
+	<poblacionPais>44622516</poblacionPais>
+	<capitalPais>Kyiv</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>603700.0</areaPais>
+	<lenguajesPais>['uk,ru-UA,rom,pl,hu']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Uganda</nombrePais>
+	<codigosPais>['UG', 'UG', '800', 'UGA', '226074']</codigosPais>
+	<monedaPais>UGX</monedaPais>
+	<poblacionPais>42723139</poblacionPais>
+	<capitalPais>Kampala</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>236040.0</areaPais>
+	<lenguajesPais>['en-UG,lg,sw,ar']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>U.S. Outlying Islands</nombrePais>
+	<codigosPais>['UM', '', '581', 'UMI', '5854968']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>0</poblacionPais>
+	<capitalPais></capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>0.0</areaPais>
+	<lenguajesPais>['en-UM']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>United States</nombrePais>
+	<codigosPais>['US', 'US', '840', 'USA', '6252001']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>327167434</poblacionPais>
+	<capitalPais>Washington</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>9629091.0</areaPais>
+	<lenguajesPais>['en-US,es-US,haw,fr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Uruguay</nombrePais>
+	<codigosPais>['UY', 'UY', '858', 'URY', '3439705']</codigosPais>
+	<monedaPais>UYU</monedaPais>
+	<poblacionPais>3449299</poblacionPais>
+	<capitalPais>Montevideo</capitalPais>
+	<continentePais>['South America', 'SA']</continentePais>
+	<areaPais>176220.0</areaPais>
+	<lenguajesPais>['es-UY']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Uzbekistan</nombrePais>
+	<codigosPais>['UZ', 'UZ', '860', 'UZB', '1512440']</codigosPais>
+	<monedaPais>UZS</monedaPais>
+	<poblacionPais>32955400</poblacionPais>
+	<capitalPais>Tashkent</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>447400.0</areaPais>
+	<lenguajesPais>['uz,ru,tg']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Vatican City</nombrePais>
+	<codigosPais>['VA', 'VT', '336', 'VAT', '3164670']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>921</poblacionPais>
+	<capitalPais>Vatican City</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>0.44</areaPais>
+	<lenguajesPais>['la,it,fr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>St Vincent and Grenadines</nombrePais>
+	<codigosPais>['VC', 'VC', '670', 'VCT', '3577815']</codigosPais>
+	<monedaPais>XCD</monedaPais>
+	<poblacionPais>110211</poblacionPais>
+	<capitalPais>Kingstown</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>389.0</areaPais>
+	<lenguajesPais>['en-VC,fr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Venezuela</nombrePais>
+	<codigosPais>['VE', 'VE', '862', 'VEN', '3625428']</codigosPais>
+	<monedaPais>VES</monedaPais>
+	<poblacionPais>28870195</poblacionPais>
+	<capitalPais>Caracas</capitalPais>
+	<continentePais>['South America', 'SA']</continentePais>
+	<areaPais>912050.0</areaPais>
+	<lenguajesPais>['es-VE']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>British Virgin Islands</nombrePais>
+	<codigosPais>['VG', 'VI', '092', 'VGB', '3577718']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>29802</poblacionPais>
+	<capitalPais>Road Town</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>153.0</areaPais>
+	<lenguajesPais>['en-VG']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>U.S. Virgin Islands</nombrePais>
+	<codigosPais>['VI', 'VQ', '850', 'VIR', '4796775']</codigosPais>
+	<monedaPais>USD</monedaPais>
+	<poblacionPais>106977</poblacionPais>
+	<capitalPais>Charlotte Amalie</capitalPais>
+	<continentePais>['North America', 'NA']</continentePais>
+	<areaPais>352.0</areaPais>
+	<lenguajesPais>['en-VI']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Vietnam</nombrePais>
+	<codigosPais>['VN', 'VM', '704', 'VNM', '1562822']</codigosPais>
+	<monedaPais>VND</monedaPais>
+	<poblacionPais>95540395</poblacionPais>
+	<capitalPais>Hanoi</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>329560.0</areaPais>
+	<lenguajesPais>['vi,en,fr,zh,km']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Vanuatu</nombrePais>
+	<codigosPais>['VU', 'NH', '548', 'VUT', '2134431']</codigosPais>
+	<monedaPais>VUV</monedaPais>
+	<poblacionPais>292680</poblacionPais>
+	<capitalPais>Port Vila</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>12200.0</areaPais>
+	<lenguajesPais>['bi,en-VU,fr-VU']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Wallis and Futuna</nombrePais>
+	<codigosPais>['WF', 'WF', '876', 'WLF', '4034749']</codigosPais>
+	<monedaPais>XPF</monedaPais>
+	<poblacionPais>16025</poblacionPais>
+	<capitalPais>Mata-Utu</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>274.0</areaPais>
+	<lenguajesPais>['wls,fud,fr-WF']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Samoa</nombrePais>
+	<codigosPais>['WS', 'WS', '882', 'WSM', '4034894']</codigosPais>
+	<monedaPais>WST</monedaPais>
+	<poblacionPais>196130</poblacionPais>
+	<capitalPais>Apia</capitalPais>
+	<continentePais>['Oceania', 'OC']</continentePais>
+	<areaPais>2944.0</areaPais>
+	<lenguajesPais>['sm,en-WS']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Kosovo</nombrePais>
+	<codigosPais>['XK', 'KV', '0', 'XKX', '831053']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>1845300</poblacionPais>
+	<capitalPais>Pristina</capitalPais>
+	<continentePais>['Europe', 'EU']</continentePais>
+	<areaPais>10908.0</areaPais>
+	<lenguajesPais>['sq,sr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Yemen</nombrePais>
+	<codigosPais>['YE', 'YM', '887', 'YEM', '69543']</codigosPais>
+	<monedaPais>YER</monedaPais>
+	<poblacionPais>28498687</poblacionPais>
+	<capitalPais>Sanaa</capitalPais>
+	<continentePais>['Asia', 'AS']</continentePais>
+	<areaPais>527970.0</areaPais>
+	<lenguajesPais>['ar-YE']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Mayotte</nombrePais>
+	<codigosPais>['YT', 'MF', '175', 'MYT', '1024031']</codigosPais>
+	<monedaPais>EUR</monedaPais>
+	<poblacionPais>279471</poblacionPais>
+	<capitalPais>Mamoudzou</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>374.0</areaPais>
+	<lenguajesPais>['fr-YT']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>South Africa</nombrePais>
+	<codigosPais>['ZA', 'SF', '710', 'ZAF', '953987']</codigosPais>
+	<monedaPais>ZAR</monedaPais>
+	<poblacionPais>57779622</poblacionPais>
+	<capitalPais>Pretoria</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>1219912.0</areaPais>
+	<lenguajesPais>['zu,xh,af,nso,en-ZA,tn,st,ts,ss,ve,nr']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Zambia</nombrePais>
+	<codigosPais>['ZM', 'ZA', '894', 'ZMB', '895949']</codigosPais>
+	<monedaPais>ZMW</monedaPais>
+	<poblacionPais>17351822</poblacionPais>
+	<capitalPais>Lusaka</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>752614.0</areaPais>
+	<lenguajesPais>['en-ZM,bem,loz,lun,lue,ny,toi']</lenguajesPais>
+</pais>
+<pais>
+	<nombrePais>Zimbabwe</nombrePais>
+	<codigosPais>['ZW', 'ZI', '716', 'ZWE', '878675']</codigosPais>
+	<monedaPais>ZWL</monedaPais>
+	<poblacionPais>14439018</poblacionPais>
+	<capitalPais>Harare</capitalPais>
+	<continentePais>['Africa', 'AF']</continentePais>
+	<areaPais>390580.0</areaPais>
+	<lenguajesPais>['en-ZW,sn,nr,nd']</lenguajesPais>
+</pais>
+</paises>
