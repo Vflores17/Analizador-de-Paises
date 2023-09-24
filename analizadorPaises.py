@@ -43,15 +43,15 @@ def opcionGenerarHtml(listaStrings):
         opcion=int(input("Escoja una opción: "))
         if opcion>=1 and opcion<=9:
             if opcion == 1:
-                print(listaStrings)
+                generarPaisesContinente(listaStrings)
             elif opcion == 2:
-                print("Opción 2")
+                generarPaisesPoblacion(listaStrings)
             elif opcion == 3:
-                print("Opción 3")
+                generarTamannoPaises(listaStrings)
             elif opcion == 4:
-                print("Opción 4")   
+                generarZonasAzules(listaStrings)  
             elif opcion == 5:
-                print("Opción 5")
+                print("Opcion 5")
             elif opcion == 6:
                 print("Opción 6")
             elif opcion == 7:
@@ -87,7 +87,8 @@ def menu():
         opcion = int(input("Escoja una opción: "))
 
         if opcion == 1:
-            listaStrings = opcionCrearEstructura()  
+            listaStrings = opcionCrearEstructura()
+            print(listaStrings)  
         elif opcion == 2 and listaStrings!=[]:
             opcionGenerarXml(listaStrings)  
         elif opcion == 3 and listaStrings!=[]:
