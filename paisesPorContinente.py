@@ -43,4 +43,4 @@ def generarPaisesContinente(paises):
     print(f'Archivo HTML "paises.html" creado con {len(ordenarPais)} registros.')
 
 # Llama a la función para generar los archivos HTML
-generarHTML(paises)
+generarPaisesContinente(paises)
