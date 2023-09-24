@@ -63,30 +63,35 @@ def generarPaisesContinente(paises):
     with open("paisesPorContinente.html", "w",encoding='utf-8') as htmlfile:
         htmlfile.write('''<html>
                            <head>
-                               <title>Información de Países</title>
+                               <title>Información sobre los países</title>
                            </head>
                            <body>
-                               <h1>Información de Países</h1>
+                               <h1>Países por continentes</h1>
                                 <center>
                                <table border='1'>
-                                   <tr>
-                                       <th>aCódigo del país</th>
-                                       <th>Nombre del País</th>
-                                       <th>Capital</th>
-                                       <th>Población</th>
-                                       <th>Área (m²)</th>
+                                   <tr bgcolor="0C9208">
+                                       <th style="color: white;">Código del país</th>
+                                       <th style="color: white;">Nombre del País</th>
+                                       <th style="color: white;">Capital</th>
+                                       <th style="color: white;">Población</th>
+                                       <th style="color: white;">Área (m²)</th>
                                    </tr>\n''')
 
         
         ordenarPais = sorted(paises, key=lambda x: x[0])
 
-        for pais in ordenarPais:
-            htmlfile.write(f'''<tr>
-                                <td>{pais[1][0]}</td>
-                                <td>{pais[0]}</td>
-                                <td>{pais[4]}</td>
-                                <td>{pais[3]}</td>
-                                <td>{pais[6]}</td>
+        for pos, pais in enumerate(ordenarPais):
+            if pos%2==0:
+                colorFila="D7BCE9"
+            else:
+                colorFila="CCFAF4"
+
+            htmlfile.write(f'''<tr style= "background-color: {colorFila};">
+                                <td align="center">{pais[1][0]}</td>
+                                <td align="center">{pais[0]}</td>
+                                <td align="center">{pais[4]}</td>
+                                <td align="center">{pais[3]}</td>
+                                <td align="center">{pais[6]}</td>
                             </tr>\n''')
 
         htmlfile.write('''</table>
@@ -94,37 +99,41 @@ def generarPaisesContinente(paises):
                        </body>
                        </html>''')
 
-    print(f'Archivo HTML "paisesPorContinente.html" creado con {len(ordenarPais)} registros.')
+    print(f"Archivo HTML 'paisesPorContinente.html' creado con " + str(len(ordenarPais)) + " registros.")
 
 # Función para generar el archivo HTML
 def generarPaisesPoblacion(paises):
     # Ordenar la lista de países por población de mayor a menor
     ordenarPais = sorted(paises, key=lambda x: int(x[3]), reverse=True)
 
-    with open("paisesPoblacion.html", "w",encoding='utf-8') as htmlfile:
+    with open("cuantosViven.html", "w",encoding='utf-8') as htmlfile:
         htmlfile.write('''<html>
                            <head>
-                               <title>Información de Países</title>
+                               <title>Información sobre los Países</title>
                            </head>
                            <body>
-                               <h1>Información de Países Ordenada por Población</h1>
+                               <h1>¿Cuántos viven?</h1>
                                 <center>
                                <table border='1'>
-                                   <tr>
-                                       <th>Población</th>
-                                       <th>isoAlpha3</th>
-                                       <th>Nombre del País</th>
-                                       <th>Área (m²)</th>
-                                       <th>Nombre del Continente</th>
+                                   <tr bgcolor="0C9208">
+                                       <th style="color: white;">Población</th>
+                                       <th style="color: white;">isoAlpha3</th>
+                                       <th style="color: white;">Nombre del País</th>
+                                       <th style="color: white;">Área (m²)</th>
+                                       <th style="color: white;">Nombre del Continente</th>
                                    </tr>\n''')
 
-        for pais in ordenarPais:
-            htmlfile.write(f'''<tr>
-                                <td>{pais[3]}</td>
-                                <td>{pais[1][3]}</td>
-                                <td>{pais[0]}</td>
-                                <td>{pais[6]}</td>
-                                <td>{pais[5][0]}</td>
+        for pos,pais in enumerate(ordenarPais):
+            if pos%2==0:
+                colorFila="D7BCE9"
+            else:
+                colorFila="CCFAF4"
+            htmlfile.write(f'''<tr style= "background-color: {colorFila};">
+                                <td align="center">{pais[3]}</td>
+                                <td align="center">{pais[1][3]}</td>
+                                <td align="center">{pais[0]}</td>
+                                <td align="center">{pais[6]}</td>
+                                <td align="center">{pais[5][0]}</td>
                             </tr>\n''')
 
         htmlfile.write('''</table>
@@ -132,34 +141,38 @@ def generarPaisesPoblacion(paises):
                        </body>
                        </html>''')
 
-    print(f'Archivo HTML "paisesPoblacion.html" creado con {len(ordenarPais)} registros.')
+    print(f'Archivo HTML "¿cuántosViven?.html" creado con {len(ordenarPais)} registros.')
 
 def generarTamannoPaises(paises):
     # Ordenar la lista de países por área en metros cuadrados de mayor a menor
     ordenarPais = sorted(paises, key=lambda x: float(x[6]), reverse=True)
 
-    with open("paisesPorArea.html", "w") as htmlfile:
+    with open("GrandesPequennos.html", "w") as htmlfile:
         htmlfile.write('''<html>
                            <head>
-                               <title>Países por Área en Metros Cuadrados</title>
+                               <title>Información sobre los países</title>
                            </head>
                            <body>
-                               <h1>Países por Área en Metros Cuadrados</h1>
+                               <h1>De grandes a pequeños</h1>
                                 <center>
                                <table border='1'>
-                                   <tr>
-                                       <th>Área en Metros Cuadrados</th>
-                                       <th>Código FIPS</th>
-                                       <th>Nombre del País</th>
-                                       <th>Nombre del Continente</th>
+                                   <tr bgcolor="0C9208">
+                                       <th style="color: white;">Área en Metros Cuadrados</th>
+                                       <th style="color: white;">Código FIPS</th>
+                                       <th style="color: white;">Nombre del País</th>
+                                       <th style="color: white;">Nombre del Continente</th>
                                    </tr>\n''')
 
-        for pais in ordenarPais:
-            htmlfile.write(f'''<tr>
-                                <td>{pais[6]}</td>
-                                <td>{pais[1][1]}</td>
-                                <td>{pais[0]}</td>
-                                <td>{pais[5][0]}</td>
+        for pos, pais in enumerate(ordenarPais):
+            if pos%2==0:
+                colorFila="D7BCE9"
+            else:
+                colorFila="CCFAF4"
+            htmlfile.write(f'''<tr style= "background-color: {colorFila};">
+                                <td align="center">{pais[6]}</td>
+                                <td align="center">{pais[1][1]}</td>
+                                <td align="center">{pais[0]}</td>
+                                <td align="center">{pais[5][0]}</td>
                             </tr>\n''')
 
         htmlfile.write('''</table>
@@ -167,42 +180,48 @@ def generarTamannoPaises(paises):
                        </body>
                        </html>''')
 
-    print(f'Archivo HTML "paisesPorArea.html" creado con {len(ordenarPais)} registros.')
+    print(f'Archivo HTML "GrandesPequennos.html" creado con {len(ordenarPais)} registros.')
 
 def generarZonasAzules(paises):
     # Filtrar los países especificados
     paisesEspecificados = ["United States", "Costa Rica", "Italy", "Greece", "Japan"]
 
     paises_filtrados = [pais for pais in paises if pais[0] in paisesEspecificados]
-    paises_filtrados=sorted(paises, key=lambda x: int(x[1][4]))
+    
+    paises_filtrados=sorted(paises_filtrados, key=lambda x: int(x[1][4]))
+    
     with open("paisesZonaAzul.html", "w",encoding='utf-8') as htmlfile:
         htmlfile.write('''<html>
                            <head>
-                               <title>Información de Países Especificados</title>
+                               <title>Información sobre los Países</title>
                            </head>
                            <body>
-                               <h1>Información de Países Especificados</h1>
+                               <h1>Zonas azules</h1>
                                 <center>
                                <table border='1'>
-                                   <tr>
-                                       <th>geonameId</th>
-                                       <th>Nombre del País</th>
-                                       <th>currencyCode</th>
-                                       <th>languages</th>
-                                       <th>capital</th>
-                                       <th>population</th>
-                                       <th>areaInSqKm</th>
+                                   <tr bgcolor="0C9208">
+                                       <th style="color: white;">geonameId</th>
+                                       <th style="color: white;">Nombre del País</th>
+                                       <th style="color: white;">currencyCode</th>
+                                       <th style="color: white;">languages</th>
+                                       <th style="color: white;">capital</th>
+                                       <th style="color: white;">population</th>
+                                       <th style="color: white;">areaInSqKm</th>
                                    </tr>\n''')
 
-        for pais in paises_filtrados:
-            htmlfile.write(f'''<tr>
-                                <td>{pais[1][4]}</td>
-                                <td>{pais[0]}</td>
-                                <td>{pais[2]}</td>
-                                <td>{pais[7]}</td>
-                                <td>{pais[4]}</td>
-                                <td>{pais[3]}</td>
-                                <td>{pais[6]}</td>
+        for pos,pais in enumerate(paises_filtrados):
+            if pos%2==0:
+                colorFila="D7BCE9"
+            else:
+                colorFila="CCFAF4"
+            htmlfile.write(f'''<tr  style= "background-color: {colorFila};">
+                                <td align="center">{pais[1][4]}</td>
+                                <td align="center">{pais[0]}</td>
+                                <td align="center">{pais[2]}</td>
+                                <td align="center">{pais[7]}</td>
+                                <td align="center">{pais[4]}</td>
+                                <td align="center">{pais[3]}</td>
+                                <td align="center">{pais[6]}</td>
                             </tr>\n''')
 
         htmlfile.write('''</table>
@@ -211,3 +230,21 @@ def generarZonasAzules(paises):
                        </html>''')
 
     print(f'Archivo HTML "paisesZonaAzul.html" creado con {len(paises_filtrados)} registros.')
+
+def extraerIdiomas(lista):
+    idiomas = []
+    for pais in lista:
+        for idioma in pais[7]:
+            if idioma not in idiomas:
+                idiomas.append(idioma)
+    print(idiomas)
+    return
+
+
+def generarPaisesIdiomas(paises):
+    idiomas=extraerIdiomas(paises)
+    for i in paises:
+        
+        return
+    
+extraerIdiomas(leerArchivo())
