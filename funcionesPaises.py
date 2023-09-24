@@ -58,3 +58,32 @@ def crearXml(lista):
         archivoXML.write('</paises>\n')
     return True
 
+def crearHtml(nombre):
+    with open(str(nombre)+'.html','w', encoding='utf-8') as archivoHTML:
+        archivoHTML.write('<!DOCTYPE html>')
+    return True
+
+def agregarInfoHtml(lista,archivo):
+    with open(archivo,encoding='utf-8') as archivoHtml:
+        archivoHtml.write("<html lang="+str(es)+">")
+        archivoHtml.write("<head>")
+        archivoHtml.write("<title> Países azules del mundo </title>")
+        archivoHtml.write("/title")
+        archivoHtml.write("<body>")
+        archivoHtml.write("<header>")
+        archivoHtml.write("<h1> Países azules del mundo. By Vidal Flores & Luis Aguilar </h1>")
+        archivoHtml.write("<section>")
+        for i in range(len(lista)):
+            archivoHtml.write(lista[i])
+        print("archivo creado")
+    return
+
+def hacerPaisesAzules(lista):
+    crearHtml("paisesAzules")
+    for i in range (len(lista)):
+        if "United States" in lista[i][1]:
+
+
+    
+    
+        return

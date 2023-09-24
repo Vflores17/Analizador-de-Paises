@@ -43,7 +43,6 @@ def opcionGenerarHtml(listaStrings):
         opcion=int(input("Escoja una opción: "))
         if opcion>=1 and opcion<=9:
             if opcion == 1:
-                print("Opción 1")
                 print(listaStrings)
             elif opcion == 2:
                 print("Opción 2")
