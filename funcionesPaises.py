@@ -234,17 +234,104 @@ def generarZonasAzules(paises):
 def extraerIdiomas(lista):
     idiomas = []
     for pais in lista:
-        for idioma in pais[7]:
-            if idioma not in idiomas:
-                idiomas.append(idioma)
-    print(idiomas)
-    return
+        idiomasPais = pais[7]  
+        idiomas.append(idiomasPais)
+    return dividirPaises(idiomas,True)
+
+def dividirPaises(idiomas,boolean):
+    idiomasDivididos=[]
+    for lista in idiomas:
+        if boolean:
+            idiomasPais = lista[0]  
+            if "," in idiomasPais:
+                idiomasDivididos.extend(idiomasPais.split(","))  
+            else:
+                idiomasDivididos.append(idiomasPais)
+        else:
+            if "," in lista:
+                idiomasDivididos.extend(lista.split(","))  
+            else:
+                idiomasDivididos.append(lista)
+    return obtenerLenguaje(idiomasDivididos)
+
+
+def obtenerLenguaje(idiomasDivididos):
+    idiomas=[]
+    for idioma in idiomasDivididos: 
+        if "-" in idioma:
+            idiomas.append(idioma[:2])  
+        else:
+            idiomas.append(idioma)
+    return eliminarRepetidos(idiomas)
+
+def eliminarRepetidos(idiomas):
+    idiomasDivididos=[]
+    for idioma in idiomas:
+        if idioma not in idiomasDivididos:
+            idiomasDivididos.append(idioma)
+
+    return idiomasDivididos
+
+def extraerIdiomasPais(lista,nombre):
+    idiomas=[]
+    for pais in lista:
+        if nombre == pais[0]:
+            idiomas=dividirPaises(pais[7],False)
+    return idiomas
 
 
 def generarPaisesIdiomas(paises):
     idiomas=extraerIdiomas(paises)
-    for i in paises:
-        
-        return
-    
-extraerIdiomas(leerArchivo())
+    infoHtml=[]
+    for idioma in idiomas:
+        cont=0
+        paisesCont=[]
+        continente=[]
+        for pais in paises:
+            idiomas=extraerIdiomasPais(paises,pais[0])
+            if idioma in idiomas:
+                cont+=1
+                paisesCont.append(pais[0])
+                if pais[5][0] not in continente:
+                    continente.append(pais[5][0])
+        if cont>=3:
+            infoHtml.append([idioma,cont,paisesCont,continente])
+
+    infoHtml=sorted(infoHtml, key=lambda x: int(x[1]),reverse=True)
+
+    with open("paisesMismoIdioma.html", "w",encoding='utf-8') as htmlfile:
+        htmlfile.write('''<html>
+                           <head>
+                               <title>Información sobre los Países</title>
+                           </head>
+                           <body>
+                               <h1>Países con el mismo idioma.</h1>
+                                <center>
+                               <table border='1'>
+                                   <tr bgcolor="0C9208">
+                                       <th style="color: white;">Idioma</th>
+                                       <th style="color: white;">Cantidad de países</th>
+                                       <th style="color: white;">Nombre de los Paises</th>
+                                       <th style="color: white;">Nombre de los continentes</th>
+                                   </tr>\n''')
+
+        for pos,pais in enumerate(infoHtml):
+            if pos%2==0:
+                colorFila="D7BCE9"
+            else:
+                colorFila="CCFAF4"
+            paisesTexto = ', '.join(pais[2])
+            continenteTexto = ', '.join(pais[3])
+            htmlfile.write(f'''<tr  style= "background-color: {colorFila};">
+                                <td align="center">{pais[0]}</td>
+                                <td align="center">{pais[1]}</td>
+                                <td align="center">{paisesTexto}</td>
+                                <td align="center">{continenteTexto}</td>
+                            </tr>\n''')
+
+        htmlfile.write('''</table>
+                       </center>
+                       </body>
+                       </html>''')
+    print(f'Archivo HTML "paisesZonaAzul.html" creado con {len(infoHtml)} registros.')
+    return
