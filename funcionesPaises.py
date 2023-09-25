@@ -60,7 +60,7 @@ def crearXml(lista):
 
 def generarPaisesContinente(paises):
 
-    with open("paisesPorContinente.html", "w",encoding='utf-8') as htmlfile:
+    with open("paises por continente.html", "w",encoding='utf-8') as htmlfile:
         htmlfile.write('''<html>
                            <head>
                                <title>Información sobre los países</title>
@@ -99,14 +99,14 @@ def generarPaisesContinente(paises):
                        </body>
                        </html>''')
 
-    print(f"Archivo HTML 'paisesPorContinente.html' creado con " + str(len(ordenarPais)) + " registros.")
+    print(f"Archivo HTML 'paises por continente.html' creado con " + str(len(ordenarPais)) + " registros.")
 
 # Función para generar el archivo HTML
 def generarPaisesPoblacion(paises):
     # Ordenar la lista de países por población de mayor a menor
     ordenarPais = sorted(paises, key=lambda x: int(x[3]), reverse=True)
 
-    with open("cuantosViven.html", "w",encoding='utf-8') as htmlfile:
+    with open("cuantos Viven.html", "w",encoding='utf-8') as htmlfile:
         htmlfile.write('''<html>
                            <head>
                                <title>Información sobre los Países</title>
@@ -141,13 +141,13 @@ def generarPaisesPoblacion(paises):
                        </body>
                        </html>''')
 
-    print(f'Archivo HTML "¿cuántosViven?.html" creado con {len(ordenarPais)} registros.')
+    print(f'Archivo HTML "¿cuántos Viven?.html" creado con {len(ordenarPais)} registros.')
 
 def generarTamannoPaises(paises):
     # Ordenar la lista de países por área en metros cuadrados de mayor a menor
     ordenarPais = sorted(paises, key=lambda x: float(x[6]), reverse=True)
 
-    with open("GrandesPequennos.html", "w") as htmlfile:
+    with open("De grandes a pequeños.html", "w") as htmlfile:
         htmlfile.write('''<html>
                            <head>
                                <title>Información sobre los países</title>
@@ -180,7 +180,7 @@ def generarTamannoPaises(paises):
                        </body>
                        </html>''')
 
-    print(f'Archivo HTML "GrandesPequennos.html" creado con {len(ordenarPais)} registros.')
+    print(f'Archivo HTML "De grandes a pequeños.html" creado con {len(ordenarPais)} registros.')
 
 def generarZonasAzules(paises):
     # Filtrar los países especificados
@@ -190,7 +190,7 @@ def generarZonasAzules(paises):
     
     paises_filtrados=sorted(paises_filtrados, key=lambda x: int(x[1][4]))
     
-    with open("paisesZonaAzul.html", "w",encoding='utf-8') as htmlfile:
+    with open("paises zonas azules.html", "w",encoding='utf-8') as htmlfile:
         htmlfile.write('''<html>
                            <head>
                                <title>Información sobre los Países</title>
@@ -202,11 +202,11 @@ def generarZonasAzules(paises):
                                    <tr bgcolor="0C9208">
                                        <th style="color: white;">geonameId</th>
                                        <th style="color: white;">Nombre del País</th>
-                                       <th style="color: white;">currencyCode</th>
-                                       <th style="color: white;">languages</th>
+                                       <th style="color: white;">Código de moneda</th>
+                                       <th style="color: white;">Lenguajes</th>
                                        <th style="color: white;">capital</th>
-                                       <th style="color: white;">population</th>
-                                       <th style="color: white;">areaInSqKm</th>
+                                       <th style="color: white;">Población</th>
+                                       <th style="color: white;">Área en Metros Cuadrados</th>
                                    </tr>\n''')
 
         for pos,pais in enumerate(paises_filtrados):
@@ -214,11 +214,12 @@ def generarZonasAzules(paises):
                 colorFila="D7BCE9"
             else:
                 colorFila="CCFAF4"
+            lenguajesTexto=', '.join(pais[7])
             htmlfile.write(f'''<tr  style= "background-color: {colorFila};">
                                 <td align="center">{pais[1][4]}</td>
                                 <td align="center">{pais[0]}</td>
                                 <td align="center">{pais[2]}</td>
-                                <td align="center">{pais[7]}</td>
+                                <td align="center">{lenguajesTexto}</td>
                                 <td align="center">{pais[4]}</td>
                                 <td align="center">{pais[3]}</td>
                                 <td align="center">{pais[6]}</td>
@@ -229,7 +230,7 @@ def generarZonasAzules(paises):
                        </body>
                        </html>''')
 
-    print(f'Archivo HTML "paisesZonaAzul.html" creado con {len(paises_filtrados)} registros.')
+    print(f'Archivo HTML "paises zonas azules.html" creado con {len(paises_filtrados)} registros.')
 
 def extraerIdiomas(lista):
     idiomas = []
@@ -272,7 +273,7 @@ def eliminarRepetidos(idiomas):
 
     return idiomasDivididos
 
-def extraerIdiomasPais(lista,nombre):
+def extraerIdiomasNombre(lista,nombre):
     idiomas=[]
     for pais in lista:
         if nombre == pais[0]:
@@ -288,7 +289,7 @@ def generarPaisesIdiomas(paises):
         paisesCont=[]
         continente=[]
         for pais in paises:
-            idiomas=extraerIdiomasPais(paises,pais[0])
+            idiomas=extraerIdiomasNombre(paises,pais[0])
             if idioma in idiomas:
                 cont+=1
                 paisesCont.append(pais[0])
@@ -297,9 +298,7 @@ def generarPaisesIdiomas(paises):
         if cont>=3:
             infoHtml.append([idioma,cont,paisesCont,continente])
 
-    infoHtml=sorted(infoHtml, key=lambda x: int(x[1]),reverse=True)
-
-    with open("paisesMismoIdioma.html", "w",encoding='utf-8') as htmlfile:
+    with open("paises mismo idioma.html", "w",encoding='utf-8') as htmlfile:
         htmlfile.write('''<html>
                            <head>
                                <title>Información sobre los Países</title>
@@ -333,5 +332,97 @@ def generarPaisesIdiomas(paises):
                        </center>
                        </body>
                        </html>''')
-    print(f'Archivo HTML "paisesMismoIdioma.html" creado con {len(infoHtml)} registros.')
+    print(f'Archivo HTML "paises mismo idioma.html" creado con {len(infoHtml)} registros.')
+    return
+
+def extraerMoneda(listaStrings):
+    moneda=[]
+    for pais in listaStrings:
+        if pais[2] not in moneda:
+            moneda.append(pais[2])
+    return moneda
+
+def generarMismaMoneda(nombre,listaStrings):
+    infoHtml=[]
+    for pais in listaStrings:
+        if nombre == pais[2]:
+            infoHtml.append([pais[5][0],pais[0],pais[4],pais[7]])
+    
+    with open("paises misma moneda.html", "w", encoding ="utf-8") as htmlfile:
+        htmlfile.write('''<html>
+                           <head>
+                               <meta charset="UTF-8">
+                               <title>Información sobre los Países</title>
+                           </head>
+                           <body>
+                               <h1>Países con la misma moneda.</h1>
+                                <center>
+                               <table border='1'>
+                                   <tr bgcolor="0C9208">
+                                       <th style="color: white;">Nombre del continente.</th>
+                                       <th style="color: white;">Nombre del país.</th>
+                                       <th style="color: white;">Capital.</th>
+                                       <th style="color: white;">Lenguajes.</th>
+                                   </tr>\n''')
+
+        for pos,pais in enumerate(infoHtml):
+            if pos%2==0:
+                colorFila="D7BCE9"
+            else:
+                colorFila="CCFAF4"
+            lenguajesTexto=", ".join(pais[3])
+            htmlfile.write(f'''<tr  style= "background-color: {colorFila};">
+                                <td align="center">{pais[0]}</td>
+                                <td align="center">{pais[1]}</td>
+                                <td align="center">{pais[2]}</td>
+                                <td align="center">{lenguajesTexto}</td>
+                            </tr>\n''')
+
+        htmlfile.write('''</table>
+                       </center>
+                       </body>
+                       </html>''')
+    print(f'Archivo HTML "paises misma moneda.html" creado con {len(infoHtml)} registros.')
+    return
+
+def generarHablantesIdioma(listaString):
+    idiomas=extraerIdiomas(listaString)
+    infoHtml=[]
+    for idioma in idiomas:
+        cont=0
+        for pais in listaString:
+            idiomas=extraerIdiomasNombre(listaString,pais[0])
+            if idioma in idiomas:
+                cont+=int(pais[3])
+        infoHtml.append([idioma,cont])
+
+    with open("hablantes por idioma.html", "w",encoding='utf-8') as htmlfile:
+        htmlfile.write('''<html>
+                           <head>
+                               <title>Información sobre los Países</title>
+                           </head>
+                           <body>
+                               <h1>Hablantes por idioma.</h1>
+                                <center>
+                               <table border='1'>
+                                   <tr bgcolor="0C9208">
+                                       <th style="color: white;">Idioma</th>
+                                       <th style="color: white;">Cantidad de hablantes</th>
+                                   </tr>\n''')
+
+        for pos,pais in enumerate(infoHtml):
+            if pos%2==0:
+                colorFila="D7BCE9"
+            else:
+                colorFila="CCFAF4"
+            htmlfile.write(f'''<tr  style= "background-color: {colorFila};">
+                                <td align="center">{pais[0]}</td>
+                                <td align="center">{pais[1]}</td>
+                            </tr>\n''')
+
+        htmlfile.write('''</table>
+                       </center>
+                       </body>
+                       </html>''')
+    print(f'Archivo HTML "hablantes por idioma.html" creado con {len(infoHtml)} registros.')
     return
