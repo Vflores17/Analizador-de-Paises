@@ -51,7 +51,7 @@ def opcionGenerarHtml(listaStrings):
             elif opcion == 4:
                 generarZonasAzules(listaStrings)  
             elif opcion == 5:
-                print("Opcion 5")
+                generarPaisesIdiomas(listaStrings)
             elif opcion == 6:
                 print("Opción 6")
             elif opcion == 7:

@@ -333,5 +333,5 @@ def generarPaisesIdiomas(paises):
                        </center>
                        </body>
                        </html>''')
-    print(f'Archivo HTML "paisesZonaAzul.html" creado con {len(infoHtml)} registros.')
+    print(f'Archivo HTML "paisesMismoIdioma.html" creado con {len(infoHtml)} registros.')
     return
