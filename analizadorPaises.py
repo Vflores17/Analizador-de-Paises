@@ -21,20 +21,20 @@ def submenuCodigos(continente,listaStrings):
         for i,continente in enumerate(paisesMenu,start=1):
             print("      " + str(i) + ". "+continente)
         print("      " + str(len(paisesMenu)+1) + ". para salir menú")
-        #try:
-        opcion=int(input("Escoja una opción: "))
-        if 1<=opcion<=len(paisesMenu):
-            generarCodigosPais(paisesMenu[opcion-1],listaStrings)
-            return
-        elif opcion == len(paisesMenu)+1:
-            print("""
-                ***** Has salido del submenú de códigos de un determinado país. *****
-                    """)
-            break
-        else:
-            print("Opcion inválida.")
-        #except:
-        #    print("Debe ingresar solamente valores númericos.")
+        try:
+            opcion=int(input("Escoja una opción: "))
+            if 1<=opcion<=len(paisesMenu):
+                generarCodigosPais(paisesMenu[opcion-1],listaStrings)
+                return
+            elif opcion == len(paisesMenu)+1:
+                print("""
+                    ***** Has salido del submenú de códigos de un determinado país. *****
+                        """)
+                break
+            else:
+                print("Opcion inválida.")
+        except:
+            print("Debe ingresar solamente valores númericos.")
 
     return
 
