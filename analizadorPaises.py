@@ -8,7 +8,17 @@
 #importación de librerías
 from funcionesPaises import *
 
+
+#Definición de funciones
 def submenuCodigos(continente,listaStrings):
+    """
+    Funcionamiento: Esta función muestra un menú que permite al usuario seleccionar un continente y luego 
+        genera códigos de países que pertenecen a ese continente a partir de la lista de datos proporcionada.
+    Entradas:
+    -(str) continente: El continente seleccionado para el menú de códigos de países.
+    -(list) listaStrings: Una lista de datos de países en formato especial.
+    Salidas:
+    -(NA) No tiene salidas directas, pero genera códigos de países del continente seleccionado."""
     while True:
         i=1
         paisesMenu=[]
@@ -20,7 +30,7 @@ def submenuCodigos(continente,listaStrings):
         Escoja una opción:\n""")
         for i,continente in enumerate(paisesMenu,start=1):
             print("      " + str(i) + ". "+continente)
-        print("      " + str(len(paisesMenu)+1) + ". para salir menú")
+        print("      " + str(len(paisesMenu)+1) + ". Salir del menú\n")
         try:
             opcion=int(input("Escoja una opción: "))
             if 1<=opcion<=len(paisesMenu):
@@ -32,36 +42,50 @@ def submenuCodigos(continente,listaStrings):
                         """)
                 break
             else:
-                print("Opcion inválida.")
+                print("\nOpcion inválida.")
+                break
         except:
-            print("Debe ingresar solamente valores númericos.")
+            print("\nDebe ingresar solamente valores númericos.")
+            break
 
     return
 
 
-def opcionCodigosDeteminados(listaStrings):
+def opcionMenuContinentes(listaStrings,camino):
+    """
+    Funcionamiento: Esta función muestra un menú de continentes disponibles y permite al usuario seleccionar un continente. 
+        Dependiendo de la opción de "camino" proporcionada (1 o 2), la función puede generar una lista de países por continente o abrir el menú de códigos de un país para el continente seleccionado.
+    Entradas:
+    -(list) listaStrings: Una lista de datos de países en formato especial.
+    -(int) camino: Un valor que indica si el usuario eligió generar países o códigos de países.
+    Salidas:
+    -(NA) No tiene salidas directas, pero permite al usuario seleccionar un continente y realizar operaciones según la opción elegida.
+    """
     while True:
         continentes=extraerInfo(listaStrings,2)
         i=1
         print("""
-        ******* Submenú códigos de un determinado país. *******
+        ******* Submenú de los continentes disponibles. *******
         Escoja una opción:\n""")
         for i,continente in enumerate(continentes,start=1):
             print("      " + str(i) + ". "+continente)
-        print("      " + str(len(continentes)+1) + ". para salir menú")
+        print("      " + str(len(continentes)+1) + ". Salir del menú\n")
         try:
             opcion=int(input("Escoja una opción: "))
             if 1<=opcion<=len(continentes):
-                submenuCodigos(continentes[opcion-1],listaStrings)
+                if camino == 1:
+                    generarPaisesContinente(continentes[opcion-1],listaStrings)
+                else:
+                    submenuCodigos(continentes[opcion-1],listaStrings)
             elif opcion == len(continentes)+1:
                 print("""
-                    ***** Has salido del submenú de códigos de un determinado país. *****
+                    ***** Has salido del submenú de los continentes. *****
                         """)
                 break
             else:
-                print("Opcion inválida.")
+                print("\nOpcion inválida.")
         except:
-            print("Debe ingresar solamente valores númericos.")
+            print("\nDebe ingresar solamente valores númericos.")
 
     return
 
@@ -69,37 +93,62 @@ def opcionCodigosDeteminados(listaStrings):
 
 
 def opcionPagoMismaMoneda(listaStrings):
+    """
+    Funcionamiento: Esta función muestra un menú de monedas utilizadas en países y permite al usuario seleccionar una moneda. 
+        Luego, genera información sobre los países que utilizan la misma moneda a partir de la lista de datos proporcionada.
+    Entradas:
+    -(list) listaStrings: Una lista de datos de países en formato especial.
+    Salidas:
+    -(NA) No tiene salidas directas, pero permite al usuario seleccionar una moneda y generar información sobre los países que utilizan la misma moneda.
+    """
     while True:
-        monedas=extraerInfo(listaStrings,1)
+        monedas=extraerMoneda(listaStrings)
         i=1
         print("""
         ******* Submenú países con la misma moneda. *******
         Escoja una opción:\n""")
         for i,moneda in enumerate(monedas,start=1):
-            print("      " + str(i) + ". "+moneda)
+            if moneda[1]>=3:
+                print("      " + str(i) + ". "+moneda[0])
         print("      " + str(len(monedas)+1) + ". para salir menú")
         try:
             opcion=int(input("Escoja una opción: "))
             if 1<=opcion<=len(monedas):
-                generarMismaMoneda(monedas[opcion-1], listaStrings)
+                generarMismaMoneda(monedas[opcion-1][0], listaStrings)
             elif opcion == len(monedas)+1:
                 print("""
                     ***** Has salido del submenú de países con la misma moneda. *****
                         """)
                 break
             else:
-                print("Opcion inválida.")
+                print("\nOpcion inválida.")
         except:
-            print("Debe ingresar solamente valores númericos.")
+            print("\nDebe ingresar solamente valores númericos.")
 
     return
 
 def opcionCrearEstructura():
+    """
+    Funcionamiento: Esta función carga una lista de datos de países desde un archivo y la devuelve como resultado. 
+        Antes de utilizar otras funciones que dependen de estos datos, se debe llamar a esta función para cargar la estructura.
+    Entradas:
+    -(NA) No tiene entradas.
+    Salidas:
+    -(list) listaStrings: Una lista de datos de países en formato especial.
+    """
     listaStrings=leerArchivo()
     print("\n***** Se han cargado " + str(len(listaStrings)) + " registros. *****\n")
     return listaStrings
 
 def opcionGenerarXml(listaStrings):
+    """
+    Funcionamiento: Esta función toma la lista de datos de países y genera un archivo XML a partir de estos datos. 
+        El archivo XML contendrá información sobre los países.
+    Entradas:
+    -(list) listaStrings: Una lista de datos de países en formato especial.
+    Salidas:
+    -(NA) No tiene salidas directas, pero genera un archivo XML a partir de los datos proporcionados.
+    """
     if crearXml(listaStrings):
         print("""
      *****  Archivo XML generado exitosamente.  ******""")
@@ -107,6 +156,13 @@ def opcionGenerarXml(listaStrings):
 
 
 def opcionGenerarHtml(listaStrings):
+    """
+    Funcionamiento: Esta función muestra un menú que permite al usuario seleccionar una opción para generar contenido HTML relacionado con los datos de los países.
+    Entradas:
+    -(list) listaStrings: Una lista de datos de países en formato especial.
+    Salidas:
+    -(NA) No tiene salidas directas, pero permite al usuario seleccionar una opción y generar contenido HTML relacionado con los datos de los países.
+    """
     while True:
         print("""
         ***** Submenú para generar HTML. *************\n
@@ -127,7 +183,7 @@ def opcionGenerarHtml(listaStrings):
             opcion=int(input("Escoja una opción: "))
             if opcion>=1 and opcion<=9:
                 if opcion == 1:
-                    generarPaisesContinente(listaStrings)
+                    opcionMenuContinentes(listaStrings,1)
                 elif opcion == 2:
                     generarPaisesPoblacion(listaStrings)
                 elif opcion == 3:
@@ -139,7 +195,7 @@ def opcionGenerarHtml(listaStrings):
                 elif opcion == 6:
                     opcionPagoMismaMoneda(listaStrings)
                 elif opcion == 7:
-                    opcionCodigosDeteminados(listaStrings)
+                    opcionMenuContinentes(listaStrings,2)
                 elif opcion == 8:
                     generarHablantesIdioma(listaStrings)
                 else:
@@ -149,13 +205,19 @@ def opcionGenerarHtml(listaStrings):
                 
                     break 
             else:
-                print("Opción inválida") 
+                print("\nOpción inválida") 
         except:
-            print("Debes ingresar solamente valores númericos.")
+            print("\nDebes ingresar solamente valores númericos.")
 
 
-#función para el manejo del menú.
 def menu():
+    """
+    Funcionamiento: Esta función proporciona un menú principal para que el usuario elija entre varias opciones, como crear estructura, generar XML, generar HTML o salir del programa.
+    Entradas:
+    -(NA) No tiene entradas.
+    Salidas:
+    -(NA) No tiene salidas directas, pero permite al usuario interactuar con el programa y realizar diversas operaciones relacionadas con datos de países.
+    """
     listaStrings = [] 
 
     while True:
@@ -167,7 +229,7 @@ def menu():
     Opciones a elegir.
     1. Crear estructura.
     2. Generar XML.
-    3. Generar un HTML.
+    3. Construir HTML.
     4. Salir del programa
     """)
         try:
@@ -183,16 +245,20 @@ def menu():
                 print("\nPrimero debes crear la estructura.")
             elif opcion == 4:
                 print("""
-    ---------\nDescubre más sobre el mundo cada vez que utilices
-    nuestro analizador de países. ¡Hay tantos datos interesantes por explorar!\n
+    ～●～●～●～●～●～●～●～～●～●～●～●～●～●～●～●～●～●～～●～●～●～●～●～●～●～●～●～●～
+                        
+        Descubre más sobre el mundo cada vez que utilices nuestro analizador de países. 
+                ¡Hay tantos datos interesantes por explorar!\n
 
-            *************** FIN DEL PROGRAMA ******************************
+    ～●～●～●～●～●～●～●～～●～●～●～●～●～●～●～●～●～●～～●～●～●～●～●～●～●～●～●～●～
+                        
+    *************** FIN DEL PROGRAMA ******************************
             """)
                 break
             else:
-                print("Opción inválida")
+                print("\nOpción inválida")
         except:
-            print("Debe ingresar solamente valores númericos.")
+            print("\nDebe ingresar solamente valores númericos.")
 
-#inicio del Programa Principal
+#Inicio del Programa Principal
 menu()
