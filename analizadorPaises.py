@@ -8,9 +8,69 @@
 #importación de librerías
 from funcionesPaises import *
 
+def submenuCodigos(continente,listaStrings):
+    while True:
+        i=1
+        paisesMenu=[]
+        for pais in listaStrings:
+            if pais[5][0] == continente:
+                paisesMenu.append(pais[0])
+        print("""
+        ******* Submenú códigos de un determinado país. *******
+        Escoja una opción:\n""")
+        for i,continente in enumerate(paisesMenu,start=1):
+            print("      " + str(i) + ". "+continente)
+        print("      " + str(len(paisesMenu)+1) + ". para salir menú")
+        #try:
+        opcion=int(input("Escoja una opción: "))
+        if 1<=opcion<=len(paisesMenu):
+            generarCodigosPais(paisesMenu[opcion-1],listaStrings)
+            return
+        elif opcion == len(paisesMenu)+1:
+            print("""
+                ***** Has salido del submenú de códigos de un determinado país. *****
+                    """)
+            break
+        else:
+            print("Opcion inválida.")
+        #except:
+        #    print("Debe ingresar solamente valores númericos.")
+
+    return
+
+
+def opcionCodigosDeteminados(listaStrings):
+    while True:
+        continentes=extraerInfo(listaStrings,2)
+        i=1
+        print("""
+        ******* Submenú códigos de un determinado país. *******
+        Escoja una opción:\n""")
+        for i,continente in enumerate(continentes,start=1):
+            print("      " + str(i) + ". "+continente)
+        print("      " + str(len(continentes)+1) + ". para salir menú")
+        try:
+            opcion=int(input("Escoja una opción: "))
+            if 1<=opcion<=len(continentes):
+                submenuCodigos(continentes[opcion-1],listaStrings)
+            elif opcion == len(continentes)+1:
+                print("""
+                    ***** Has salido del submenú de códigos de un determinado país. *****
+                        """)
+                break
+            else:
+                print("Opcion inválida.")
+        except:
+            print("Debe ingresar solamente valores númericos.")
+
+    return
+
+
+
+
 def opcionPagoMismaMoneda(listaStrings):
     while True:
-        monedas=extraerMoneda(listaStrings)
+        monedas=extraerInfo(listaStrings,1)
         i=1
         print("""
         ******* Submenú países con la misma moneda. *******
@@ -79,7 +139,7 @@ def opcionGenerarHtml(listaStrings):
                 elif opcion == 6:
                     opcionPagoMismaMoneda(listaStrings)
                 elif opcion == 7:
-                    print("Opción 7")
+                    opcionCodigosDeteminados(listaStrings)
                 elif opcion == 8:
                     generarHablantesIdioma(listaStrings)
                 else:

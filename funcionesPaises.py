@@ -335,18 +335,26 @@ def generarPaisesIdiomas(paises):
     print(f'Archivo HTML "paises mismo idioma.html" creado con {len(infoHtml)} registros.')
     return
 
-def extraerMoneda(listaStrings):
+def extraerInfo(listaStrings,opcion):
     moneda=[]
+    buscar=""
     for pais in listaStrings:
-        if pais[2] not in moneda:
-            moneda.append(pais[2])
+        if opcion == 1:
+            buscar=pais[2]
+        elif opcion == 2:
+            buscar=pais[5][0]
+        elif opcion == 3:
+            buscar=pais[0]
+        if buscar not in moneda:
+            moneda.append(buscar)
     return moneda
+    
 
 def generarMismaMoneda(nombre,listaStrings):
     infoHtml=[]
     for pais in listaStrings:
         if nombre == pais[2]:
-            infoHtml.append([pais[5][0],pais[0],pais[4],pais[7]])
+            infoHtml.append(pais[5][0],pais[0],pais[4],pais[7])
     
     with open("paises misma moneda.html", "w", encoding ="utf-8") as htmlfile:
         htmlfile.write('''<html>
@@ -383,6 +391,52 @@ def generarMismaMoneda(nombre,listaStrings):
                        </body>
                        </html>''')
     print(f'Archivo HTML "paises misma moneda.html" creado con {len(infoHtml)} registros.')
+    return
+
+
+def generarCodigosPais(ppais,listaStrings):
+    infoHtml=[]
+    for pais in listaStrings:
+        if ppais == pais[0]:
+            infoHtml.append(pais[5][0])
+            infoHtml.append(pais[0])
+            infoHtml.append(pais[1])
+    with open("paises codigo determinado.html", "w", encoding ="utf-8") as htmlfile:
+        htmlfile.write('''<html>
+                           <head>
+                               <meta charset="UTF-8">
+                               <title>Información sobre los Países</title>
+                           </head>
+                           <body>
+                               <h1>Códigos de un determinado país.</h1>
+                                <center>
+                               <table border='1'>
+                                   <tr bgcolor="0C9208">
+                                       <th style="color: white;">Nombre del continente.</th>
+                                       <th style="color: white;">Nombre del país.</th>
+                                       <th style="color: white;">Código de la moneda.</th>
+                                       <th style="color: white;">Código fips.</th>
+                                       <th style="color: white;">Isonumérico.</th>
+                                       <th style="color: white;">isoAlpha3.</th>
+                                       <th style="color: white;">geonameId.</th>
+                                   </tr>\n''')
+
+        colorFila="D7BCE9"
+        htmlfile.write(f'''<tr  style= "background-color: {colorFila};">
+                            <td align="center">{infoHtml[0]}</td>
+                            <td align="center">{infoHtml[1]}</td>
+                            <td align="center">{infoHtml[2][0]}</td>
+                            <td align="center">{infoHtml[2][1]}</td>
+                            <td align="center">{infoHtml[2][2]}</td>
+                            <td align="center">{infoHtml[2][3]}</td>
+                            <td align="center">{infoHtml[2][4]}</td>
+                        </tr>\n''')
+
+        htmlfile.write('''</table>
+                       </center>
+                       </body>
+                       </html>''')
+    print(f'Archivo HTML "paises codigo determinado.html" creado con {str(1)} registro.')
     return
 
 def generarHablantesIdioma(listaString):
@@ -426,3 +480,4 @@ def generarHablantesIdioma(listaString):
                        </html>''')
     print(f'Archivo HTML "hablantes por idioma.html" creado con {len(infoHtml)} registros.')
     return
+
